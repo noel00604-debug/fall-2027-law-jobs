@@ -79,5 +79,24 @@
     ],
     "date": "2026-11-08",
     "logged_at": "2026-11-08T15:47:06-05:00"
+  },
+  {
+    "new_ids": [
+      "irs-office-of-chief-counsel-honors-program-law-clerk-j-d-students-gs-11-announcement-miami",
+      "u-s-district-court-southern-district-of-law-clerk-to-u-s-magistrate-judge-lauren-f-louis-ann-no-miami",
+      "eleventh-judicial-circuit-of-florida-trial-court-staff-attorney-legal-clerk-office-of-the-gen-miami"
+    ],
+    "closed_ids": [
+      "national-labor-relations-board-division-law-clerk-trainee-honors-law-clerk-announcement-nl27ex13-miami"
+    ],
+    "searches": 29,
+    "fetches": 17,
+    "sources_checked": 11,
+    "notes": "Added IRS Honors J.D. clerk (tax, closes Dec 11), SDFL Louis clerkship and 11th Circuit legal clerk; re-verified 6 postings; closed NLRB honors (3L not eligible); IRS honors program updated to open now.",
+    "errors": [
+      "Several sites refused fetch (governmentjobs, Indeed job pages); jobs.floridabar.org site search returned nothing"
+    ],
+    "date": "2026-11-08",
+    "logged_at": "2026-11-08T16:21:17-05:00"
   }
 ]
