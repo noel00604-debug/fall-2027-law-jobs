@@ -65,5 +65,19 @@
     "notes": "Initial seed from a one-time research pass across government, court, public interest, law firm, accounting firm and in-house sources (55 postings, 39 programs, 103 sources).",
     "errors": [],
     "logged_at": "2026-11-08T12:35:51-05:00"
+  },
+  {
+    "new_ids": [],
+    "closed_ids": [],
+    "searches": 5,
+    "fetches": 0,
+    "sources_checked": 0,
+    "notes": "Search returned only GitHub pages and web_fetch refused every employer URL, so nothing was verified or added and no old postings were re-verified.",
+    "errors": [
+      "web_fetch rejected all employer URLs (url_not_in_prior_context)",
+      "web_search returned no job postings for Miami or Fort Lauderdale legal queries"
+    ],
+    "date": "2026-11-08",
+    "logged_at": "2026-11-08T15:47:06-05:00"
   }
 ]

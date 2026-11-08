@@ -2,7 +2,7 @@
 
 Dashboard: https://noel00604-debug.github.io/fall-2027-law-jobs/
 
-Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then government, courts and public interest, then everything else. An agent refreshes this every weekday morning; this file was generated Nov 8, 2026, 2:05 PM ET.
+Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then government, courts and public interest, then everything else. An agent refreshes this every weekday morning; this file was generated Nov 8, 2026, 3:47 PM ET.
 
 Open postings: 55 (tax-fit 4). Programs tracked: 39. Runs logged: 1.
 
