@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="robots" content="noindex">
+<title>__TITLE__</title>
+<style>
+:root{
+  --bg:#f4f5f7; --surface:#ffffff; --surface-2:#f0f2f5; --text:#171a20; --muted:#5f6675; --border:#dfe3e9;
+  --accent:#1f4fd8; --accent-ink:#ffffff; --link:#1a4bd0;
+  --tax-ink:#0b5e57; --tax-bg:#d6f5ef; --gov-ink:#3b35a8; --gov-bg:#e4e3fb; --oth-ink:#4a5567; --oth-bg:#e6e9ef;
+  --new-ink:#8a4b05; --new-bg:#fde9c4; --danger:#b42323; --warn:#a1580b; --ok:#1d7a3f;
+  --shadow:0 1px 2px rgba(16,20,28,.05);
+  --radius:12px;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0f1116; --surface:#171a21; --surface-2:#1e222b; --text:#e8eaef; --muted:#9aa3b3; --border:#2a2f3a;
+  --accent:#6b93ff; --accent-ink:#0b1020; --link:#8db0ff;
+  --tax-ink:#7fe3d3; --tax-bg:#143e3a; --gov-ink:#b9b7ff; --gov-bg:#2b2a5e; --oth-ink:#c7cdd8; --oth-bg:#2a303c;
+  --new-ink:#ffd38a; --new-bg:#4a3010; --danger:#ff8a8a; --warn:#f0b35c; --ok:#6fd79a;
+  --shadow:none;
+}}
+:root[data-theme="dark"]{
+  --bg:#0f1116; --surface:#171a21; --surface-2:#1e222b; --text:#e8eaef; --muted:#9aa3b3; --border:#2a2f3a;
+  --accent:#6b93ff; --accent-ink:#0b1020; --link:#8db0ff;
+  --tax-ink:#7fe3d3; --tax-bg:#143e3a; --gov-ink:#b9b7ff; --gov-bg:#2b2a5e; --oth-ink:#c7cdd8; --oth-bg:#2a303c;
+  --new-ink:#ffd38a; --new-bg:#4a3010; --danger:#ff8a8a; --warn:#f0b35c; --ok:#6fd79a;
+  --shadow:none;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Inter,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--link);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header.top{background:var(--surface);border-bottom:1px solid var(--border)}
+.title-row{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding-top:22px;flex-wrap:wrap}
+h1{font-size:1.45rem;margin:0;letter-spacing:-.01em}
+.sub{margin:4px 0 0;color:var(--muted);max-width:60ch}
+.updated{color:var(--muted);font-size:.86rem;display:flex;align-items:center;gap:10px;white-space:nowrap}
+.btn{appearance:none;border:1px solid var(--border);background:var(--surface-2);color:var(--text);border-radius:8px;padding:5px 10px;font:inherit;font-size:.85rem;cursor:pointer}
+.btn:hover{border-color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;padding:18px 0 20px}
+.stat{background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius);padding:12px 14px}
+.stat .num{font-size:1.7rem;font-weight:650;line-height:1.1;letter-spacing:-.02em}
+.stat .lbl{color:var(--muted);font-size:.82rem;margin-top:2px}
+main{padding:8px 0 48px}
+section{margin-top:28px}
+h2{font-size:1.02rem;margin:0 0 10px;display:flex;align-items:baseline;gap:10px}
+h2 .count{color:var(--muted);font-weight:500;font-size:.9rem}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow)}
+.dl-list{list-style:none;margin:0;padding:0}
+.dl-list li{display:grid;grid-template-columns:minmax(110px,150px) 1fr;gap:12px;padding:10px 14px;border-top:1px solid var(--border);align-items:baseline}
+.dl-list li:first-child{border-top:0}
+.dl-when{font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
+.dl-when small{display:block;font-weight:500;color:var(--muted)}
+.dl-when.urgent{color:var(--danger)} .dl-when.soon{color:var(--warn)}
+.dl-what .kind{color:var(--muted);font-size:.85rem;margin-left:6px}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px 10px;align-items:center;margin:0 0 12px}
+.tabs{display:flex;gap:4px;background:var(--surface-2);border:1px solid var(--border);border-radius:10px;padding:3px}
+.tab{appearance:none;border:0;background:transparent;color:var(--muted);padding:6px 11px;border-radius:7px;font:inherit;font-size:.88rem;cursor:pointer}
+.tab[aria-selected="true"]{background:var(--surface);color:var(--text);box-shadow:var(--shadow);font-weight:600}
+.toolbar input[type=search],.toolbar select{font:inherit;font-size:.88rem;padding:6px 9px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);min-width:0}
+.toolbar input[type=search]{flex:1 1 180px}
+.toolbar label.chk{display:inline-flex;align-items:center;gap:6px;color:var(--muted);font-size:.86rem;white-space:nowrap}
+.job{padding:14px 16px;border-top:1px solid var(--border)}
+.job:first-child{border-top:0;border-radius:var(--radius) var(--radius) 0 0}
+.job-head{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.job-head h3{font-size:1rem;margin:0;font-weight:620;flex:1 1 260px;line-height:1.3}
+.badge{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:999px;line-height:1.5}
+.badge.fit-1{background:var(--tax-bg);color:var(--tax-ink)}
+.badge.fit-2{background:var(--gov-bg);color:var(--gov-ink)}
+.badge.fit-3{background:var(--oth-bg);color:var(--oth-ink)}
+.badge.new{background:var(--new-bg);color:var(--new-ink)}
+.badge.closed{background:var(--oth-bg);color:var(--oth-ink)}
+.pill{display:inline-block;font-size:.78rem;color:var(--muted);border:1px solid var(--border);border-radius:999px;padding:1px 8px}
+.job-meta{color:var(--muted);font-size:.9rem;margin-top:4px;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center}
+.job-meta .emp{color:var(--text);font-weight:560}
+.job p{margin:6px 0 0;font-size:.92rem}
+.job .lvl{color:var(--text)}
+.job .nts{color:var(--muted)}
+.job-foot{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin-top:10px;font-size:.86rem;color:var(--muted)}
+.job-foot .dl{font-weight:600;color:var(--text)}
+.job-foot .dl.urgent{color:var(--danger)} .job-foot .dl.soon{color:var(--warn)}
+.job-foot .me{margin-left:auto;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.job-foot select,.job-foot input{font:inherit;font-size:.85rem;padding:4px 8px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text)}
+.job-foot input{width:220px;max-width:100%}
+.job.my-applied{border-left:3px solid var(--ok)}
+.job.my-interested{border-left:3px solid var(--accent)}
+.job.my-interview{border-left:3px solid var(--ok)}
+.job.my-rejected,.job.my-not_interested{opacity:.6}
+.job.dead .job-head h3{color:var(--muted)}
+.empty{padding:22px 16px;color:var(--muted);text-align:center}
+.prog-group{margin-top:12px}
+.prog-group h3{font-size:.86rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:14px 0 6px}
+.prog{padding:12px 16px;border-top:1px solid var(--border)}
+.prog:first-child{border-top:0}
+.prog .name{font-weight:620}
+.prog .org{color:var(--muted);font-size:.9rem}
+.prog p{margin:4px 0 0;font-size:.9rem;color:var(--muted)}
+.prog p strong{color:var(--text);font-weight:600}
+details.more summary{cursor:pointer;color:var(--muted);font-size:.9rem;padding:10px 16px}
+.log{font-size:.86rem;color:var(--muted)}
+.log li{padding:6px 0;border-top:1px solid var(--border)}
+.log li:first-child{border-top:0}
+.log ul{list-style:none;margin:0;padding:0 16px}
+footer{color:var(--muted);font-size:.84rem;padding:18px 0 40px;border-top:1px solid var(--border)}
+.hidden{display:none !important}
+@media (max-width:640px){
+  .dl-list li{grid-template-columns:1fr}
+  .job-foot .me{margin-left:0;width:100%}
+  .job-foot input{width:100%}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="title-row">
+      <div>
+        <h1>__TITLE__</h1>
+        <p class="sub">Entry-level and bar-pending attorney roles, Miami-Dade and Broward (Fort Lauderdale and south), for a 2027 start. Tax first, then government and courts, then the rest.</p>
+      </div>
+      <div class="updated"><span>Updated __UPDATED__</span><button class="btn" id="themeBtn" type="button" title="Switch theme">Theme</button></div>
+    </div>
+    <div class="stats" aria-label="Summary">
+      <div class="stat"><div class="num" id="s-open">0</div><div class="lbl">open postings</div></div>
+      <div class="stat"><div class="num" id="s-new">0</div><div class="lbl" id="s-new-lbl">new since your last visit</div></div>
+      <div class="stat"><div class="num" id="s-tax">0</div><div class="lbl">tax-fit postings</div></div>
+      <div class="stat"><div class="num" id="s-dl">0</div><div class="lbl">deadlines in the next 14 days</div></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="deadlines">
+    <h2>Coming deadlines <span class="count" id="dl-count"></span></h2>
+    <div class="card"><ol class="dl-list" id="dl-list"></ol></div>
+  </section>
+
+  <section id="jobs">
+    <h2>Postings <span class="count" id="job-count"></span></h2>
+    <div class="toolbar" role="toolbar">
+      <div class="tabs" role="tablist" id="fitTabs">
+        <button class="tab" role="tab" data-fit="all" aria-selected="true" type="button">All</button>
+        <button class="tab" role="tab" data-fit="1" type="button">Tax</button>
+        <button class="tab" role="tab" data-fit="2" type="button">Government &amp; courts</button>
+        <button class="tab" role="tab" data-fit="3" type="button">Other</button>
+      </div>
+      <input type="search" id="q" placeholder="Search employer, title, practice area" aria-label="Search postings">
+      <select id="county" aria-label="County"><option value="all">Both counties</option><option>Miami-Dade</option><option>Broward</option></select>
+      <select id="etype" aria-label="Employer type"><option value="all">All employer types</option></select>
+      <select id="mine" aria-label="My status"><option value="all">Any status</option><option value="new">Untouched</option><option value="interested">Interested</option><option value="applied">Applied</option><option value="interview">Interview</option><option value="rejected">Rejected</option><option value="not_interested">Not interested</option></select>
+      <select id="sort" aria-label="Sort"><option value="fit">Sort: fit, then deadline</option><option value="deadline">Sort: deadline</option><option value="newest">Sort: newest first</option><option value="employer">Sort: employer</option></select>
+      <label class="chk"><input type="checkbox" id="openOnly" checked> open only</label>
+      <label class="chk"><input type="checkbox" id="hideNI" checked> hide not interested</label>
+    </div>
+    <div class="card" id="job-list"></div>
+  </section>
+
+  <section id="programs">
+    <h2>Programs and hiring cycles <span class="count" id="prog-count"></span></h2>
+    <div id="prog-groups"></div>
+  </section>
+
+  <section id="log">
+    <h2>Agent log</h2>
+    <div class="card log"><ul id="run-list"></ul></div>
+  </section>
+</main>
+
+<footer><div class="wrap">Statuses and notes you set here are saved in this browser only. Data lives in <a href="__REPO_URL__">the repository</a>; the agent refreshes it every weekday morning.</div></footer>
+
+<script id="data" type="application/json">__DATA_JSON__</script>
+<script>
+(function(){
+  var DATA = JSON.parse(document.getElementById('data').textContent);
+  var jobs = DATA.jobs || [], programs = DATA.programs || [], runs = DATA.runs || [];
+  var MS_DAY = 86400000;
+  var now = new Date(); var todayStr = isoDate(now);
+
+  // ---------- storage helpers (per-browser) ----------
+  function lsGet(k, d){ try { var v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch(e){ return d; } }
+  function lsSet(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} }
+  var my = lsGet('f27-status', {});
+  var filters = lsGet('f27-filters', {fit:'all', q:'', county:'all', etype:'all', mine:'all', sort:'fit', openOnly:true, hideNI:true});
+  var theme = lsGet('f27-theme', null);
+  if (theme) document.documentElement.setAttribute('data-theme', theme);
+
+  // Visit tracking: "new" = first seen after your previous visit (6-hour sessions). First visit: last 7 days.
+  var visit = lsGet('f27-visit', null), prevVisit = null;
+  if (!visit) { visit = {last: now.getTime(), prev: null}; }
+  else if (now.getTime() - visit.last > 6*3600*1000) { visit = {last: now.getTime(), prev: visit.last}; }
+  prevVisit = visit.prev; lsSet('f27-visit', visit);
+  var newSince = prevVisit ? isoDate(new Date(prevVisit)) : isoDate(new Date(now.getTime() - 7*MS_DAY));
+
+  // ---------- utils ----------
+  function isoDate(d){ var y=d.getFullYear(), m=('0'+(d.getMonth()+1)).slice(-2), day=('0'+d.getDate()).slice(-2); return y+'-'+m+'-'+day; }
+  function parseISO(s){ if(!s) return null; var p=s.split('-'); return new Date(+p[0], +p[1]-1, +p[2]); }
+  function daysUntil(s){ var d=parseISO(s); if(!d) return null; return Math.round((d - new Date(now.getFullYear(), now.getMonth(), now.getDate()))/MS_DAY); }
+  var MONTHS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  function fmt(s){ var d=parseISO(s); if(!d) return ''; return MONTHS[d.getMonth()]+' '+d.getDate()+(d.getFullYear()!==now.getFullYear()?', '+d.getFullYear():''); }
+  function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+  function rel(n){ if(n===0) return 'today'; if(n===1) return 'tomorrow'; if(n<0) return Math.abs(n)+' days ago'; return 'in '+n+' days'; }
+  var TYPE_LABEL={law_firm:'Law firm',accounting_firm:'Accounting firm',government:'Government',federal:'Federal',clerkship:'Clerkship',public_interest:'Public interest',in_house:'In-house',other:'Other'};
+  var FIT_LABEL={1:'Tax',2:'Gov / courts',3:'Other'};
+  var STATUS_LABEL={interested:'Interested',applied:'Applied',interview:'Interview',rejected:'Rejected',not_interested:'Not interested'};
+  function isNew(j){ return j.first_seen && j.first_seen > newSince; }
+  function myStatus(id){ return (my[id] && my[id].s) || ''; }
+
+  // ---------- header stats ----------
+  var open = jobs.filter(function(j){ return j.status==='open'; });
+  document.getElementById('s-open').textContent = open.length;
+  document.getElementById('s-tax').textContent = open.filter(function(j){ return j.fit_rank===1; }).length;
+  var newCount = open.filter(isNew).length;
+  document.getElementById('s-new').textContent = newCount;
+  document.getElementById('s-new-lbl').textContent = prevVisit ? 'new since your last visit ('+fmt(isoDate(new Date(prevVisit)))+')' : 'new in the last 7 days';
+  document.getElementById('s-dl').textContent = open.filter(function(j){ var n=daysUntil(j.deadline); return n!==null && n>=0 && n<=14; }).length
+    + programs.filter(function(p){ var n=daysUntil(p.deadline); return p.status_for_noel!=='closed' && n!==null && n>=0 && n<=14; }).length;
+
+  // ---------- deadlines ----------
+  (function(){
+    var items=[];
+    open.forEach(function(j){ var n=daysUntil(j.deadline); if(n!==null && n>=0 && n<=60) items.push({d:j.deadline,n:n,label:j.employer+': '+j.title,sub:j.city,url:j.url,kind:'posting',fit:j.fit_rank}); });
+    programs.forEach(function(p){ var n=daysUntil(p.deadline); if(p.status_for_noel!=='closed' && n!==null && n>=0 && n<=60) items.push({d:p.deadline,n:n,label:p.organization+': '+p.name,sub:p.city||'',url:p.url,kind:'program',fit:null}); });
+    items.sort(function(a,b){ return a.d<b.d?-1:a.d>b.d?1:0; });
+    var ol=document.getElementById('dl-list');
+    document.getElementById('dl-count').textContent = items.length ? items.length+' in the next 60 days' : '';
+    if(!items.length){ ol.innerHTML='<li class="empty">No deadlines on file for the next 60 days.</li>'; return; }
+    ol.innerHTML = items.slice(0,14).map(function(it){
+      var cls = it.n<=7?'urgent':it.n<=21?'soon':'';
+      return '<li><div class="dl-when '+cls+'">'+esc(fmt(it.d))+'<small>'+esc(rel(it.n))+'</small></div>'
+        +'<div class="dl-what"><a href="'+esc(it.url)+'" target="_blank" rel="noopener">'+esc(it.label)+'</a>'
+        +(it.fit===1?' <span class="badge fit-1">Tax</span>':'')
+        +'<span class="kind">'+esc(it.sub? it.sub+' · ':'')+it.kind+'</span></div></li>';
+    }).join('');
+  })();
+
+  // ---------- filters UI ----------
+  var etypeSel=document.getElementById('etype');
+  Object.keys(TYPE_LABEL).forEach(function(k){ if(jobs.some(function(j){return j.employer_type===k;})){ var o=document.createElement('option'); o.value=k; o.textContent=TYPE_LABEL[k]; etypeSel.appendChild(o);} });
+  document.getElementById('q').value=filters.q||'';
+  document.getElementById('county').value=filters.county||'all';
+  etypeSel.value=filters.etype||'all'; if(etypeSel.value!==filters.etype) filters.etype='all';
+  document.getElementById('mine').value=filters.mine||'all';
+  document.getElementById('sort').value=filters.sort||'fit';
+  document.getElementById('openOnly').checked=filters.openOnly!==false;
+  document.getElementById('hideNI').checked=filters.hideNI!==false;
+  Array.prototype.forEach.call(document.querySelectorAll('#fitTabs .tab'), function(t){ t.setAttribute('aria-selected', String(t.dataset.fit===(filters.fit||'all'))); t.addEventListener('click', function(){ filters.fit=t.dataset.fit; Array.prototype.forEach.call(document.querySelectorAll('#fitTabs .tab'), function(x){ x.setAttribute('aria-selected', String(x===t)); }); save(); render(); }); });
+  ['q','county','etype','mine','sort','openOnly','hideNI'].forEach(function(id){ var el=document.getElementById(id); el.addEventListener(el.type==='search'?'input':'change', function(){ filters[id]= el.type==='checkbox'? el.checked : el.value; save(); render(); }); });
+  function save(){ lsSet('f27-filters', filters); }
+
+  // ---------- jobs ----------
+  function sortJobs(list){
+    var s=filters.sort||'fit';
+    return list.slice().sort(function(a,b){
+      if(s==='newest'){ return (b.first_seen||'')<(a.first_seen||'')?-1:(b.first_seen||'')>(a.first_seen||'')?1:cmpDl(a,b); }
+      if(s==='deadline'){ return cmpDl(a,b) || (a.fit_rank-b.fit_rank); }
+      if(s==='employer'){ return a.employer.localeCompare(b.employer) || a.title.localeCompare(b.title); }
+      return (a.fit_rank-b.fit_rank) || cmpDl(a,b) || ((b.first_seen||'')<(a.first_seen||'')?-1:1);
+    });
+    function cmpDl(a,b){ var x=a.deadline||'9999', y=b.deadline||'9999'; return x<y?-1:x>y?1:0; }
+  }
+  function render(){
+    var q=(filters.q||'').trim().toLowerCase();
+    var list=jobs.filter(function(j){
+      if(filters.openOnly!==false && j.status!=='open') return false;
+      if(filters.fit && filters.fit!=='all' && String(j.fit_rank)!==filters.fit) return false;
+      if(filters.county && filters.county!=='all' && j.county!==filters.county) return false;
+      if(filters.etype && filters.etype!=='all' && j.employer_type!==filters.etype) return false;
+      var ms=myStatus(j.id);
+      if(filters.hideNI!==false && ms==='not_interested' && filters.mine!=='not_interested') return false;
+      if(filters.mine && filters.mine!=='all'){ if(filters.mine==='new'){ if(ms) return false; } else if(ms!==filters.mine) return false; }
+      if(q){ var hay=[j.employer,j.title,j.city,j.practice_area,j.level_note,j.notes,j.source].join(' ').toLowerCase(); if(hay.indexOf(q)<0) return false; }
+      return true;
+    });
+    list=sortJobs(list);
+    document.getElementById('job-count').textContent = list.length+' of '+jobs.length;
+    var host=document.getElementById('job-list');
+    if(!list.length){ host.innerHTML='<div class="empty">Nothing matches these filters.</div>'; return; }
+    host.innerHTML=list.map(cardHTML).join('');
+    Array.prototype.forEach.call(host.querySelectorAll('select.my-s'), function(sel){ sel.addEventListener('change', function(){ setMine(sel.dataset.id, 's', sel.value); }); });
+    Array.prototype.forEach.call(host.querySelectorAll('input.my-n'), function(inp){ inp.addEventListener('change', function(){ setMine(inp.dataset.id, 'n', inp.value); }); });
+  }
+  function setMine(id, key, val){
+    my[id]=my[id]||{}; my[id][key]=val; my[id].t=todayStr; if(!my[id].s && !my[id].n) delete my[id]; lsSet('f27-status', my);
+    var art=document.querySelector('.job[data-id="'+id+'"]'); if(art){ art.className=art.className.replace(/\bmy-\S+/g,'').trim(); var s=myStatus(id); if(s) art.classList.add('my-'+s); }
+  }
+  function cardHTML(j){
+    var n=daysUntil(j.deadline), dlCls = n===null?'':n<0?'':n<=7?'urgent':n<=21?'soon':'';
+    var ms=myStatus(j.id), mn=(my[j.id]&&my[j.id].n)||'';
+    var dead = j.status!=='open';
+    var foot=[];
+    if(j.deadline){ foot.push('<span class="dl '+dlCls+'">Deadline '+esc(fmt(j.deadline))+(n!==null?' ('+esc(rel(n))+')':'')+'</span>'); }
+    else if(j.start_timing && !/^(not stated|unknown|n\/a|none|null)\b/i.test(j.start_timing)){ foot.push('<span>'+esc(j.start_timing)+'</span>'); }
+    if(j.posted) foot.push('<span>Posted '+esc(fmt(j.posted))+'</span>');
+    foot.push('<span>First seen '+esc(fmt(j.first_seen))+'</span>');
+    if(j.salary) foot.push('<span>'+esc(j.salary)+'</span>');
+    if(dead) foot.push('<span>'+esc(j.status==='expired'?'Expired':'Closed')+(j.closed_on?' '+esc(fmt(j.closed_on)):'')+(j.closed_reason?': '+esc(j.closed_reason):'')+'</span>');
+    var opts=['<option value="">Set status</option>'].concat(Object.keys(STATUS_LABEL).map(function(k){ return '<option value="'+k+'"'+(ms===k?' selected':'')+'>'+STATUS_LABEL[k]+'</option>'; })).join('');
+    return '<article class="job'+(isNew(j)&&!dead?' is-new':'')+(dead?' dead':'')+(ms?' my-'+ms:'')+'" data-id="'+esc(j.id)+'">'
+      +'<div class="job-head"><span class="badge fit-'+j.fit_rank+'">'+FIT_LABEL[j.fit_rank]+'</span>'
+      +(isNew(j)&&!dead?'<span class="badge new">New</span>':'')+(dead?'<span class="badge closed">'+esc(j.status)+'</span>':'')
+      +'<h3><a href="'+esc(j.url)+'" target="_blank" rel="noopener">'+esc(j.title)+'</a></h3></div>'
+      +'<div class="job-meta"><span class="emp">'+esc(j.employer)+'</span><span>·</span><span>'+esc(j.city)+(j.remote?' (remote)':'')+'</span><span>·</span><span class="pill">'+esc(TYPE_LABEL[j.employer_type]||j.employer_type)+'</span>'
+      +(j.practice_area?'<span class="pill" title="'+esc(j.practice_area)+'">'+esc(j.practice_area.length>56?j.practice_area.slice(0,54).replace(/[,;: ]+\S*$/,'')+'...':j.practice_area)+'</span>':'')+(j.confidence==='search_result'?'<span class="pill" title="Seen in search results, posting not opened">unverified</span>':'')+'</div>'
+      +(j.level_note?'<p class="lvl">'+esc(j.level_note)+'</p>':'')
+      +(j.notes?'<p class="nts">'+esc(j.notes)+'</p>':'')
+      +'<div class="job-foot">'+foot.join('')
+      +'<span class="me"><select class="my-s" data-id="'+esc(j.id)+'" aria-label="My status">'+opts+'</select>'
+      +'<input class="my-n" data-id="'+esc(j.id)+'" value="'+esc(mn)+'" placeholder="Your note" aria-label="My note"></span></div></article>';
+  }
+  render();
+
+  // ---------- programs ----------
+  (function(){
+    var order=['open now','rolling','opens later','likely missed for 2027','closed'];
+    var titles={'open now':'Open now','rolling':'Rolling, apply any time','opens later':'Opens later, watching','likely missed for 2027':'Likely missed for 2027 (next cycle noted)','closed':'Closed'};
+    var host=document.getElementById('prog-groups');
+    document.getElementById('prog-count').textContent = programs.length;
+    order.forEach(function(st){
+      var list=programs.filter(function(p){ return p.status_for_noel===st; }).sort(function(a,b){ return (a.deadline||'9999')<(b.deadline||'9999')?-1:1; });
+      if(!list.length) return;
+      var inner=list.map(function(p){
+        var n=daysUntil(p.deadline);
+        return '<div class="prog"><div><a class="name" href="'+esc(p.url)+'" target="_blank" rel="noopener">'+esc(p.name)+'</a>'+(p.deadline?' <span class="pill">deadline '+esc(fmt(p.deadline))+(n!==null&&n>=0?', '+esc(rel(n)):'')+'</span>':'')+'</div>'
+          +'<div class="org">'+esc(p.organization)+(p.city?' · '+esc(p.city):'')+'</div>'
+          +(p.window?'<p><strong>Window:</strong> '+esc(p.window)+'</p>':'')
+          +(p.eligibility_note?'<p><strong>Eligibility:</strong> '+esc(p.eligibility_note)+'</p>':'')
+          +(p.typical_cycle?'<p><strong>Typical cycle:</strong> '+esc(p.typical_cycle)+'</p>':'')
+          +(p.notes?'<p>'+esc(p.notes)+'</p>':'')+'</div>';
+      }).join('');
+      var collapsed = (st==='likely missed for 2027' || st==='closed');
+      var sec=document.createElement('div'); sec.className='prog-group';
+      sec.innerHTML='<h3>'+titles[st]+' <span class="count">'+list.length+'</span></h3>'+(collapsed?'<details class="more card"><summary>Show '+list.length+'</summary>'+inner+'</details>':'<div class="card">'+inner+'</div>');
+      host.appendChild(sec);
+    });
+  })();
+
+  // ---------- run log ----------
+  (function(){
+    var ul=document.getElementById('run-list');
+    if(!runs.length){ ul.innerHTML='<li class="empty">No runs logged yet.</li>'; return; }
+    ul.innerHTML=runs.slice().reverse().map(function(r){
+      var bits=[];
+      if(r.new_ids) bits.push(r.new_ids.length+' new'); if(r.closed_ids) bits.push(r.closed_ids.length+' closed');
+      if(r.searches!=null) bits.push(r.searches+' searches'); if(r.fetches!=null) bits.push(r.fetches+' pages');
+      return '<li><strong>'+esc(fmt(r.date))+'</strong>'+(bits.length?' · '+esc(bits.join(', ')):'')+(r.notes?' · '+esc(r.notes):'')+(r.errors&&r.errors.length?' · <span style="color:var(--danger)">'+esc(r.errors.join('; '))+'</span>':'')+'</li>';
+    }).join('');
+  })();
+
+  // ---------- theme ----------
+  document.getElementById('themeBtn').addEventListener('click', function(){
+    var cur=document.documentElement.getAttribute('data-theme');
+    var dark = cur ? cur==='dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var next = dark?'light':'dark'; document.documentElement.setAttribute('data-theme', next); lsSet('f27-theme', next);
+  });
+})();
+</script>
+</body>
+</html>
