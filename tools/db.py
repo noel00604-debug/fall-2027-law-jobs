@@ -214,7 +214,7 @@ def cmd_list(args):
         rows.append(j)
     rows.sort(key=lambda j: (j.get("fit_rank", 3), j.get("deadline") or "9999", j.get("employer", "")))
     for j in rows:
-        print(f"[{j.get('fit_rank')}] {j.get('status'):7} {j['id']:70} dl={j.get('deadline')} seen={j.get('last_seen')}")
+        print(f"[{j.get('fit_rank')}] {j.get('status'):7} {j['id']:70} dl={j.get('deadline')} seen={j.get('last_seen')} {j.get('url')}")
     print(json.dumps({"ok": True, "count": len(rows)}))
 
 

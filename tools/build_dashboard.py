@@ -64,6 +64,9 @@ def build_readme(jobs, programs, runs, config, generated):
     lines.append("")
     lines.append(f"Dashboard: {pages_url}")
     lines.append("")
+    links_url = (pages_url.rstrip("/") + "/links.html") if pages_url.startswith("http") else "docs/links.html"
+    lines.append(f"Agent link index (every source and open posting URL): {links_url}")
+    lines.append("")
     lines.append(f"Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. "
                  f"Tax roles first, then government, courts and public interest, then everything else. "
                  f"An agent refreshes this every weekday morning; this file was generated {generated}.")
@@ -98,6 +101,35 @@ def build_readme(jobs, programs, runs, config, generated):
                  "`tools/build_dashboard.py` renders `docs/index.html` and this README. The agent's operating manual is `AGENT.md`.")
     lines.append("")
     return "\n".join(lines)
+
+
+def build_links_page(jobs, programs, sources, config, generated):
+    """A plain page that lists every URL the agent may need to open. The agent fetches this page
+    first each run; the web_fetch tool then treats every link on it as a known URL."""
+    def li(label, url):
+        return f'<li><a href="{html.escape(url)}">{html.escape(url)}</a> <span>{html.escape(label)}</span></li>'
+
+    parts = [
+        "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"robots\" content=\"noindex\">",
+        f"<title>Links: {html.escape(config.get('title', 'Fall 2027 Job Search'))}</title>",
+        "<style>body{font:14px/1.5 system-ui,sans-serif;max-width:1000px;margin:24px auto;padding:0 16px}"
+        "li{margin:3px 0;word-break:break-all}span{color:#666;margin-left:8px}h2{margin-top:28px}</style></head><body>",
+        f"<h1>Agent link index</h1><p>Generated {html.escape(generated)}. Every source, program and open posting URL on file.</p>",
+    ]
+    parts.append("<h2>Sources</h2><ol>")
+    for s in sources:
+        if s.get("url"):
+            parts.append(li(f"{s.get('id')} ({s.get('check_frequency')})", s["url"]))
+    parts.append("</ol><h2>Programs</h2><ol>")
+    for p in programs:
+        if p.get("url"):
+            parts.append(li(p.get("id", ""), p["url"]))
+    parts.append("</ol><h2>Open postings</h2><ol>")
+    for j in jobs:
+        if j.get("status") == "open" and j.get("url"):
+            parts.append(li(f"{j.get('id')} (last seen {j.get('last_seen')})", j["url"]))
+    parts.append("</ol></body></html>")
+    return "\n".join(parts)
 
 
 def main():
@@ -141,12 +173,14 @@ def main():
     os.makedirs(DOCS_DIR, exist_ok=True)
     with open(os.path.join(DOCS_DIR, "index.html"), "w", encoding="utf-8") as fh:
         fh.write(page)
+    with open(os.path.join(DOCS_DIR, "links.html"), "w", encoding="utf-8") as fh:
+        fh.write(build_links_page(jobs, programs, sources, config, updated_label))
     open(os.path.join(DOCS_DIR, ".nojekyll"), "a").close()
     with open(os.path.join(ROOT, "README.md"), "w", encoding="utf-8") as fh:
         fh.write(build_readme(jobs, programs, runs, config, updated_label))
     print(json.dumps({"ok": True, "jobs": len(jobs), "open": sum(1 for j in jobs if j.get("status") == "open"),
                       "programs": len(programs), "generated_at": generated,
-                      "wrote": ["docs/index.html", "README.md"]}, indent=2))
+                      "wrote": ["docs/index.html", "docs/links.html", "README.md"]}, indent=2))
 
 
 if __name__ == "__main__":
