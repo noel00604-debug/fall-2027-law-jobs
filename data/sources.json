@@ -40,8 +40,8 @@
     "what_to_search": "New attorney postings (entry-level ASA, Legal Division, Child Support, Public Records); cross-check People First '11th circuit' results",
     "check_frequency": "every run",
     "notes": null,
-    "last_checked": "2026-11-08",
-    "last_result": "seed research"
+    "last_checked": "2026-11-10",
+    "last_result": "Entry-level ASA (Jul 1 2026) and Legal Division ASA (Jun 1 2026) still listed; nothing new"
   },
   {
     "id": "broward-state-attorney-s-office-employment-page",
@@ -326,8 +326,8 @@
     "what_to_search": "'Law Clerk', 'Term LC', 'Pro Se Law Clerk' announcements with Miami or Fort Lauderdale duty stations and 2027 start dates; also https://www.flsd.uscourts.gov/clerkships-and-internships",
     "check_frequency": "every run",
     "notes": null,
-    "last_checked": "2026-11-08",
-    "last_result": "Opened listings page: new Louis (Miami) clerkship 2026-JDS-27 added; McCabe and Artau are West Palm Beach, out of zone."
+    "last_checked": "2026-11-10",
+    "last_result": "JDS-26 and JDS-21 listed; JDS-27 PDF live; JDS-28 is West Palm Beach (out of zone)"
   },
   {
     "id": "s-d-fla-bankruptcy-court-current-openings",
@@ -425,8 +425,8 @@
     "what_to_search": "3L Staff Attorney program (Nov 16, 2026 deadline) and staff attorney openings",
     "check_frequency": "weekly",
     "notes": null,
-    "last_checked": "2026-11-08",
-    "last_result": "seed research"
+    "last_checked": "2026-11-10",
+    "last_result": "3L staff attorney still open, apply by Nov 16"
   },
   {
     "id": "legal-aid-service-of-broward-county-careers",
@@ -524,8 +524,8 @@
     "what_to_search": "Organizations: Legal Services of Greater Miami, Dade Legal Aid, Legal Aid Service of Broward County, Coast to Coast, Catholic Legal Services, AI Justice, Community Justice Project, Florida Justice Institute, Disability Rights Florida",
     "check_frequency": "every run",
     "notes": null,
-    "last_checked": "2026-11-08",
-    "last_result": "seed research"
+    "last_checked": "2026-11-10",
+    "last_result": "Broward Legal Aid, Coast to Coast, DRF, CLS, AIJ, LSGM postings match file; St. Michael's is Tampa (out)"
   },
   {
     "id": "equal-justice-works-design-your-own-fellowship",
@@ -920,8 +920,8 @@
     "what_to_search": "Attorney postings in Miami and Plantation with 'preferred, but not required' experience language; JSON: POST.../JobBoardView/LoadSearchResults",
     "check_frequency": "every run",
     "notes": null,
-    "last_checked": "2026-11-08",
-    "last_result": "seed research"
+    "last_checked": "2026-11-10",
+    "last_result": "Page did not render (unsupported browser); not checked"
   },
   {
     "id": "kubicki-draper-attorney-careers",
@@ -931,8 +931,8 @@
     "what_to_search": "Miami and Fort Lauderdale associate roles; apply by emailing careers@kubickidraper.com with resume and writing sample; most roles list 2+ years, watch for 'Associate Attorney' roles at 1+ or unspecified",
     "check_frequency": "every run",
     "notes": null,
-    "last_checked": "2026-11-08",
-    "last_result": "seed research"
+    "last_checked": "2026-11-10",
+    "last_result": "Fort Lauderdale and Miami associate roles want 2+ years; nothing new"
   },
   {
     "id": "kelley-kronenberg-icims",

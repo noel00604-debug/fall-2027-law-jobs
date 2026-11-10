@@ -98,5 +98,23 @@
     ],
     "date": "2026-11-08",
     "logged_at": "2026-11-08T16:21:17-05:00"
+  },
+  {
+    "new_ids": [
+      "brown-sims-pc-associate-attorney-insurance-defense-0-to-4-years-miramar",
+      "massey-coican-and-king-pllc-workers-compensation-defense-attorney-recently-graduated-plantation"
+    ],
+    "closed_ids": [],
+    "searches": 32,
+    "fetches": 23,
+    "sources_checked": 6,
+    "notes": "2 search_result adds; DCF 60074609 expired; 8 re-verified; PwC Miami Tax Associate Summer/Fall 2027 seen in search but not opened",
+    "errors": [
+      "PwC, Roig Lawyers and Miami Beach governmentjobs pages not fetchable",
+      "Cole Scott Kissane ultipro board did not render",
+      "Ca11 employment page not fetchable"
+    ],
+    "date": "2026-11-10",
+    "logged_at": "2026-11-10T06:48:41-05:00"
   }
 ]

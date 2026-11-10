@@ -42,7 +42,7 @@
     "confidence": "verified",
     "notes": "Exact fit for your timeline (May 2027 JD, July 2027 bar, Sept 2027 start); apply with resume, cover letter specifying the 3L Staff Attorney position, and writing sample to Vivian Chavez, vchavez@legalservicesmiami.org. Tax is one of the listed practice areas.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "status": "open"
   },
   {
@@ -89,7 +89,9 @@
     "notes": "Closes today (Nov 8, 2026); DCF CLS reposts Entry Level Attorney roles in Fort Lauderdale and Miami frequently, so treat as a recurring opening.",
     "first_seen": "2026-11-08",
     "last_seen": "2026-11-08",
-    "status": "open"
+    "status": "expired",
+    "closed_on": "2026-11-10",
+    "closed_reason": "application deadline passed"
   },
   {
     "id": "florida-department-of-children-and-famil-attorney-position-60057845-miami",
@@ -111,7 +113,7 @@
     "confidence": "verified",
     "notes": "Apply online with cover letter and resume; writing sample, transcript and references may be requested later.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "status": "open"
   },
   {
@@ -203,7 +205,7 @@
     "confidence": "verified",
     "notes": "He has already applied; email channel is Recruitment@MiamiSAO.com with subject 'Entry-Level Assistant State Attorney' (cover letter, resume, unofficial transcript).",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "status": "open"
   },
   {
@@ -364,7 +366,7 @@
     "confidence": "verified",
     "notes": "Open until filled; email one consolidated PDF (cover letter, resume with salary history, transcript, bar proof if any, writing sample, three references) to augustin-birch_applicants@flsd.uscourts.gov with announcement number in the subject.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "status": "open"
   },
   {
@@ -387,7 +389,7 @@
     "confidence": "verified",
     "notes": "No longer shown on the SDFL job-listings index as of Nov 8, 2026, so it may be filled; apply by single PDF to strauss@flsd.uscourts.gov with '2026-JDS-20' in the subject if still open.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "status": "open"
   },
   {
@@ -410,7 +412,7 @@
     "confidence": "verified",
     "notes": "Email single PDF (cover letter noting Miami vs. WPB preference, resume, AO78, transcripts, writing sample) to flsd_hrmail@flsd.uscourts.gov with 'Announcement Number: 2026-JDS-21'; SDFL reposts pro se law clerk roles periodically.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "status": "open"
   },
   {
@@ -504,7 +506,7 @@
     "confidence": "verified",
     "notes": "Apply to careers@aijustice.org, subject 'STAFF ATTORNEY'; recorded mainly as evidence that AI Justice hires attorneys with any-state bar and no experience minimum.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "status": "open"
   },
   {
@@ -1309,7 +1311,7 @@
     "confidence": "verified",
     "notes": "Open until filled. Email one PDF with cover letter, resume, transcript, writing sample and two references to LouisApplications@flsd.uscourts.gov with 2026-JDS-27 in the subject line. The notice warns of 50 to 65 hour weeks.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-10",
     "status": "open"
   },
   {
@@ -1333,6 +1335,52 @@
     "notes": "I could not open the page. Application needs cover letter, resume, two references, law school transcript and a writing sample of 5 pages or less, uploaded by the closing date. Check the closing date on the page before you apply.",
     "first_seen": "2026-11-08",
     "last_seen": "2026-11-08",
+    "status": "open"
+  },
+  {
+    "id": "brown-sims-pc-associate-attorney-insurance-defense-0-to-4-years-miramar",
+    "employer": "Brown Sims PC",
+    "title": "Associate Attorney (insurance defense, 0 to 4 years)",
+    "city": "Miramar",
+    "county": "Broward",
+    "remote": false,
+    "employer_type": "law_firm",
+    "practice_area": "Insurance defense and coverage litigation",
+    "fit_rank": 3,
+    "level_note": "Search result says 0 to 4 years of experience in civil or federal defense litigation and insurance coverage and defense.",
+    "start_timing": null,
+    "deadline": null,
+    "posted": null,
+    "salary": null,
+    "url": "https://indeed.com/jobs?from=mobRdr&l=Broward+County%2C+FL&q=Insurance+Defense+Attorney&vjk=eb0fe261a266e973",
+    "source": "web_search: Indeed listing page, Broward County insurance defense",
+    "confidence": "search_result",
+    "notes": "Could not open the posting. The search snippet lists the South Florida office in Miramar and says 0 to 4 years, so a 2027 admittee may fit. Check the Brown Sims careers page before you send a resume and writing sample.",
+    "first_seen": "2026-11-10",
+    "last_seen": "2026-11-10",
+    "status": "open"
+  },
+  {
+    "id": "massey-coican-and-king-pllc-workers-compensation-defense-attorney-recently-graduated-plantation",
+    "employer": "Massey, Coican & King, PLLC",
+    "title": "Workers' Compensation Defense Attorney (recently graduated and barred)",
+    "city": "Plantation",
+    "county": "Broward",
+    "remote": false,
+    "employer_type": "law_firm",
+    "practice_area": "Workers' compensation defense",
+    "fit_rank": 3,
+    "level_note": "Search result describes the role as designed for a recently graduated and barred attorney.",
+    "start_timing": null,
+    "deadline": null,
+    "posted": null,
+    "salary": null,
+    "url": "https://www.indeed.com/q-entry-level-legal-l-miami,-fl-jobs.html",
+    "source": "web_search: Indeed entry level legal Miami listing page",
+    "confidence": "search_result",
+    "notes": "Could not open the posting. The snippet says the firm is in Plantation and wants a recently barred attorney. Confirm the opening on masseylaw.com or Indeed before applying.",
+    "first_seen": "2026-11-10",
+    "last_seen": "2026-11-10",
     "status": "open"
   }
 ]

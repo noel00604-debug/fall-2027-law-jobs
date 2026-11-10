@@ -4,13 +4,12 @@ Dashboard: https://noel00604-debug.github.io/fall-2027-law-jobs/
 
 Agent link index (every source and open posting URL): https://noel00604-debug.github.io/fall-2027-law-jobs/links.html
 
-Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then government, courts and public interest, then everything else. An agent refreshes this every weekday morning; this file was generated Nov 8, 2026, 4:21 PM ET.
+Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then government, courts and public interest, then everything else. An agent refreshes this every weekday morning; this file was generated Nov 10, 2026, 6:48 AM ET.
 
-Open postings: 57 (tax-fit 5). Programs tracked: 39. Runs logged: 3.
+Open postings: 58 (tax-fit 5). Programs tracked: 39. Runs logged: 3.
 
 ## Deadlines in the next 30 days
 
-- Nov 8, 2026: [Florida Department of Children and Families, Children's Legal Services: Entry Level Attorney (Position 60074609) (Fort Lauderdale)](https://jobs.myflorida.com/job/FORT-LAUDERDALE-ENTRY-LEVEL-ATTORNEY-60074609-FL-33301/1438210400/)
 - Nov 10, 2026: [Community Justice Project, Inc. (with Catalyst Miami): Staff Attorney, Eviction Defense (Miami (hybrid, 33137))](https://to.indeed.com/aa2nv8njsdcz)
 - Nov 13, 2026: [National Labor Relations Board: Honors Law Clerk program (Miami Regional Office among 26 locations)](https://www.usajobs.gov/job/891157400)
 - Nov 15, 2026: [Americans for Immigrant Justice (AI Justice): Staff Attorney (anticipated 2-year contract term) (Miami (hybrid; must be based in Florida))](https://www.idealist.org/en/nonprofit-job/9f38ed261d1f440e974406ea7ae8c042-staff-attorney-americans-for-immigrant-justice-miami)
@@ -41,7 +40,6 @@ Open postings: 57 (tax-fit 5). Programs tracked: 39. Runs logged: 3.
 - GOV [Coast to Coast Legal Aid of South Florida: Attorney, Family Law & Victims of Crime](https://recruiting.paylocity.com/Recruiting/Jobs/All/280f65cf-fada-46d3-a776-bea7d735765f), Plantation (hybrid)
 - GOV [Disability Rights Florida: Staff Attorney, Client Assistance Program / Community and Healthcare Services (two positions)](https://disabilityrightsflorida.org/about/position/staff_attorney_cap_chs), Fort Lauderdale (or Tampa, Gainesville, Tallahassee, or fully remote for Florida residents)
 - GOV [Eleventh Judicial Circuit of Florida: Trial Court Staff Attorney (Legal Clerk), Office of the General Counsel (State Funded)](https://www.governmentjobs.com/careers/jud11flcourts/jobs/5223873/trial-court-staff-attorney-legal-clerk-office-of-the-general-counsel-state-f), Miami
-- GOV [Florida Department of Children and Families, Children's Legal Services: Entry Level Attorney (Position 60074609)](https://jobs.myflorida.com/job/FORT-LAUDERDALE-ENTRY-LEVEL-ATTORNEY-60074609-FL-33301/1438210400/), Fort Lauderdale, deadline Nov 8, 2026
 - GOV [Florida Department of Children and Families, Children's Legal Services: Attorney (Position 60057845)](https://jobs.myflorida.com/job/MIAMI-ATTORNEY-60057845-FL-33128/1063759800/), Miami, deadline Nov 15, 2026
 - GOV [Florida Justice Institute: Staff Attorney, Individual Cases](https://fji.law/work-with-us/), Miami
 - GOV [Florida Office of the Attorney General, Civil Litigation Unit: Attorney-Assistant, Assistant & Senior Assistant Attorney General (Attorney-Assistant AAG is the entry level)](https://jobs.myflorida.com/job/WEST-PALM-BEACH-Attorney-Assistant,-Assistant-&-Senior-Assistant-Attorney-General-FL-33401/1442879100/), Fort Lauderdale (ZIPs 33301, 33315); also West Palm Beach and Tallahassee locations, deadline Nov 19, 2026
@@ -65,6 +63,7 @@ Open postings: 57 (tax-fit 5). Programs tracked: 39. Runs logged: 3.
 - [Americans for Immigrant Justice (AI Justice): Staff Attorney (anticipated 2-year contract term)](https://www.idealist.org/en/nonprofit-job/9f38ed261d1f440e974406ea7ae8c042-staff-attorney-americans-for-immigrant-justice-miami), Miami (hybrid; must be based in Florida), deadline Nov 15, 2026
 - [Blood Law, PLLC: Associate Attorney - Family Law](https://to.indeed.com/aab6pv2fh6cv), Coral Gables
 - [Broward Litigation Firm (name withheld on posting): Associate Attorney (civil / commercial litigation)](https://to.indeed.com/aayhgczqhwmg), Fort Lauderdale
+- [Brown Sims PC: Associate Attorney (insurance defense, 0 to 4 years)](https://indeed.com/jobs?from=mobRdr&l=Broward+County%2C+FL&q=Insurance+Defense+Attorney&vjk=eb0fe261a266e973), Miramar
 - [Cole, Scott & Kissane, P.A.: General Liability Attorney](https://recruiting.ultipro.com/COL1035CSKK/JobBoard/dcad0375-6d68-4c23-80e1-6fc0eb806d1f/OpportunityDetail?opportunityId=d2cbd95e-b61b-4cb7-b351-f734054072c9), Miami
 - [Cole, Scott & Kissane, P.A.: First Party Property Attorney](https://recruiting.ultipro.com/COL1035CSKK/JobBoard/dcad0375-6d68-4c23-80e1-6fc0eb806d1f/OpportunityDetail?opportunityId=b33bc417-1aeb-4782-990c-bab61c875027), Miami
 - [Cole, Scott & Kissane, P.A.: General Liability Attorney](https://recruiting.ultipro.com/COL1035CSKK/JobBoard/dcad0375-6d68-4c23-80e1-6fc0eb806d1f/OpportunityDetail?opportunityId=d2b56829-90e4-4115-b22d-27199d0efcfc), Plantation
