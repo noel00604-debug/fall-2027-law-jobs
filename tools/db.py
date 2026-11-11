@@ -6,9 +6,10 @@ Usage:
   python3 tools/db.py seen ID [ID ...]              # mark postings as still live today
   python3 tools/db.py close ID [ID ...] --reason "posting removed"
   python3 tools/db.py expire                        # mark open postings whose deadline has passed
-  python3 tools/db.py list [--open] [--fit 1]       # print a compact table of postings
+  python3 tools/db.py list [--open] [--fit 1]       # print a compact table of postings (fit 1 = tax, 2 = everything else)
   python3 tools/db.py add-programs NEW.json         # add structured programs (array)
   python3 tools/db.py program-set ID key=value ...  # update fields on one program
+  python3 tools/db.py sources [--due] [--focus tax] # list the source checklist, tax sources first
   python3 tools/db.py source-checked ID "result"    # record that a source was checked today
   python3 tools/db.py log-run RUN.json              # append a run summary
   python3 tools/db.py ids                           # print every job id and normalized url (for dedupe)
@@ -18,6 +19,7 @@ Every command prints a JSON summary to stdout. Non-zero exit means nothing was w
 from __future__ import annotations
 
 import argparse
+import datetime as dt
 import json
 import sys
 
@@ -27,18 +29,23 @@ _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 from common import (
     CONFIDENCE,
     EMPLOYER_TYPES,
+    FIT_OTHER,
+    FIT_RANKS,
     JOBS_PATH,
     PROGRAMS_PATH,
     PROGRAM_STATUSES,
     RUNS_PATH,
+    SOURCE_FOCUS,
     SOURCES_PATH,
     clean_record,
     is_iso_date,
     job_id_for,
     load_json,
     norm_key,
+    normalize_fit,
     normalize_url,
     now_iso,
+    parse_bool,
     save_json,
     slugify,
     today,
@@ -74,8 +81,8 @@ def _validate_new_job(rec: dict, idx: int):
             problems.append(f"missing {key}")
     if rec.get("employer_type") not in EMPLOYER_TYPES:
         problems.append(f"employer_type must be one of {EMPLOYER_TYPES}")
-    if rec.get("fit_rank") not in (1, 2, 3):
-        problems.append("fit_rank must be 1 (tax), 2 (government, clerkship, public interest) or 3 (other)")
+    if isinstance(rec.get("fit_rank"), bool) or rec.get("fit_rank") not in FIT_RANKS:
+        problems.append("fit_rank must be 1 (tax) or 2 (everything else)")
     if rec.get("confidence") not in CONFIDENCE:
         problems.append(f"confidence must be one of {CONFIDENCE}")
     for key in ("deadline", "posted"):
@@ -103,7 +110,9 @@ def cmd_add_jobs(args):
         rec = clean_record(dict(raw))
         rec.setdefault("remote", False)
         rec.setdefault("confidence", "search_result")
-        rec.setdefault("fit_rank", 3)
+        rec.setdefault("fit_rank", FIT_OTHER)
+        # Two tiers only. A 3 from the old three-tier scheme means "everything else".
+        rec["fit_rank"] = normalize_fit(rec["fit_rank"])
         for key in ("practice_area", "level_note", "start_timing", "salary", "source", "notes"):
             rec.setdefault(key, None)
         for key in ("deadline", "posted"):
@@ -212,7 +221,7 @@ def cmd_list(args):
         if args.fit and j.get("fit_rank") != args.fit:
             continue
         rows.append(j)
-    rows.sort(key=lambda j: (j.get("fit_rank", 3), j.get("deadline") or "9999", j.get("employer", "")))
+    rows.sort(key=lambda j: (j.get("fit_rank", FIT_OTHER), j.get("deadline") or "9999", j.get("employer", "")))
     for j in rows:
         print(f"[{j.get('fit_rank')}] {j.get('status'):7} {j['id']:70} dl={j.get('deadline')} seen={j.get('last_seen')} {j.get('url')}")
     print(json.dumps({"ok": True, "count": len(rows)}))
@@ -250,6 +259,7 @@ def cmd_add_programs(args):
             pid = f"{base}-{n}"
             n += 1
         rec["id"] = pid
+        rec["tax"] = bool(parse_bool(rec.get("tax")))
         rec.setdefault("category", "other")
         rec.setdefault("city", None)
         rec.setdefault("window", None)
@@ -283,11 +293,78 @@ def cmd_program_set(args):
             _fail(f"status_for_noel must be one of {PROGRAM_STATUSES}")
         if key == "deadline" and not is_iso_date(value):
             _fail("deadline must be ISO date or null")
+        if key == "tax":
+            flag = parse_bool(value)
+            if flag is None:
+                _fail("tax must be true or false")
+            target[key] = flag
+            changes[key] = flag
+            continue
         target[key] = clean_record({"v": value})["v"]
         changes[key] = target[key]
     target["last_verified"] = today()
     save_json(PROGRAMS_PATH, programs)
     print(json.dumps({"ok": True, "id": args.id, "changes": changes}, indent=2, ensure_ascii=False))
+
+
+def _source_due(src: dict, day: str) -> bool:
+    """Every-run sources are always due. Weekly ones come due when they have never been checked
+    or when the last check is 7 or more days old."""
+    if src.get("check_frequency") == "every run":
+        return True
+    last = src.get("last_checked")
+    if not last or not is_iso_date(last):
+        return True
+    return (dt.date.fromisoformat(day) - dt.date.fromisoformat(last)).days >= 7
+
+
+def _oldest_first(rows):
+    return sorted(rows, key=lambda r: (r[2].get("last_checked") or "", r[2].get("id", "")))
+
+
+def _mix_by_category(rows):
+    """Rotate through the categories (job boards, private employers, public employers) so a walk
+    down the list covers every kind of employer instead of finishing one kind first."""
+    groups = {}
+    for row in _oldest_first(rows):
+        groups.setdefault(row[2].get("category") or "other", []).append(row)
+    order = [c for c in ("aggregator", "private_sector", "public_sector") if c in groups]
+    order += sorted(c for c in groups if c not in order)
+    mixed, i = [], 0
+    while any(i < len(groups[c]) for c in order):
+        for c in order:
+            if i < len(groups[c]):
+                mixed.append(groups[c][i])
+        i += 1
+    return mixed
+
+
+def cmd_sources(args):
+    sources = load_json(SOURCES_PATH, [])
+    day = today()
+    rows = []
+    for s in sources:
+        focus = s.get("focus") or "general"
+        if args.focus and focus != args.focus:
+            continue
+        due = _source_due(s, day)
+        if args.due and not due:
+            continue
+        rows.append((focus, due, s))
+    # Order: tax sources that are due, then general sources that are due (mixed by kind of
+    # employer), then whatever is not due yet. Inside each block the longest unchecked comes first.
+    tax_due = _oldest_first([r for r in rows if r[0] == "tax" and r[1]])
+    general_due = _mix_by_category([r for r in rows if r[0] != "tax" and r[1]])
+    not_due = _oldest_first([r for r in rows if not r[1]])
+    not_due.sort(key=lambda r: 0 if r[0] == "tax" else 1)
+    rows = tax_due + general_due + not_due
+    for focus, due, s in rows:
+        print(f"[{focus:7}] {'due' if due else 'ok ':3} {s.get('check_frequency', ''):9} last={s.get('last_checked')} {s.get('id')}")
+        print(f"          {s.get('name')} | {s.get('url')}")
+        if s.get("what_to_search"):
+            print(f"          look for: {s['what_to_search']}")
+    print(json.dumps({"ok": True, "count": len(rows), "tax": sum(1 for r in rows if r[0] == "tax"),
+                      "general": sum(1 for r in rows if r[0] != "tax"), "due": sum(1 for r in rows if r[1])}))
 
 
 def cmd_source_checked(args):
@@ -322,10 +399,11 @@ def main(argv=None):
     p = sub.add_parser("seen"); p.add_argument("ids", nargs="+"); p.set_defaults(fn=cmd_seen)
     p = sub.add_parser("close"); p.add_argument("ids", nargs="+"); p.add_argument("--reason", required=True); p.set_defaults(fn=cmd_close)
     p = sub.add_parser("expire"); p.set_defaults(fn=cmd_expire)
-    p = sub.add_parser("list"); p.add_argument("--open", action="store_true"); p.add_argument("--fit", type=int); p.set_defaults(fn=cmd_list)
+    p = sub.add_parser("list"); p.add_argument("--open", action="store_true"); p.add_argument("--fit", type=int, choices=FIT_RANKS); p.set_defaults(fn=cmd_list)
     p = sub.add_parser("ids"); p.set_defaults(fn=cmd_ids)
     p = sub.add_parser("add-programs"); p.add_argument("file"); p.set_defaults(fn=cmd_add_programs)
     p = sub.add_parser("program-set"); p.add_argument("id"); p.add_argument("pairs", nargs="+"); p.set_defaults(fn=cmd_program_set)
+    p = sub.add_parser("sources"); p.add_argument("--due", action="store_true"); p.add_argument("--focus", choices=SOURCE_FOCUS); p.set_defaults(fn=cmd_sources)
     p = sub.add_parser("source-checked"); p.add_argument("id"); p.add_argument("result"); p.set_defaults(fn=cmd_source_checked)
     p = sub.add_parser("log-run"); p.add_argument("file"); p.set_defaults(fn=cmd_log_run)
 

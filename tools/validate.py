@@ -12,15 +12,18 @@ import os as _os, sys as _sys
 _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 
 from common import (
+    CHECK_FREQUENCIES,
     CONFIDENCE,
     CONFIG_PATH,
     DASH_RE,
     EMPLOYER_TYPES,
+    FIT_RANKS,
     JOBS_PATH,
     JOB_STATUSES,
     PROGRAMS_PATH,
     PROGRAM_STATUSES,
     RUNS_PATH,
+    SOURCE_FOCUS,
     SOURCES_PATH,
     is_iso_date,
     load_json,
@@ -58,8 +61,8 @@ def main():
         seen_ids.add(j.get("id"))
         if j.get("employer_type") not in EMPLOYER_TYPES:
             errors.append(f"{tag}: bad employer_type {j.get('employer_type')!r}")
-        if j.get("fit_rank") not in (1, 2, 3):
-            errors.append(f"{tag}: fit_rank must be 1, 2 or 3")
+        if isinstance(j.get("fit_rank"), bool) or j.get("fit_rank") not in FIT_RANKS:
+            errors.append(f"{tag}: fit_rank must be 1 (tax) or 2 (everything else)")
         if j.get("status") not in JOB_STATUSES:
             errors.append(f"{tag}: bad status {j.get('status')!r}")
         if j.get("confidence") not in CONFIDENCE:
@@ -98,6 +101,8 @@ def main():
             errors.append(f"{tag}: bad status_for_noel {p.get('status_for_noel')!r}")
         if not is_iso_date(p.get("deadline")):
             errors.append(f"{tag}: deadline is not an ISO date")
+        if "tax" in p and not isinstance(p.get("tax"), bool):
+            errors.append(f"{tag}: tax must be true or false")
         for s in strings_in(p):
             if DASH_RE.search(s):
                 errors.append(f"{tag}: contains an em or en dash: {s[:60]!r}")
@@ -116,8 +121,12 @@ def main():
         if s.get("id") in sids:
             errors.append(f"{tag}: duplicate id")
         sids.add(s.get("id"))
-        if s.get("check_frequency") not in ("every run", "weekly"):
+        if s.get("check_frequency") not in CHECK_FREQUENCIES:
             errors.append(f"{tag}: check_frequency must be 'every run' or 'weekly'")
+        if "focus" not in s:
+            warnings.append(f"{tag}: no focus set (treated as general)")
+        elif s.get("focus") not in SOURCE_FOCUS:
+            errors.append(f"{tag}: focus must be 'tax' or 'general'")
         if not str(s.get("url", "")).lower().startswith("http"):
             errors.append(f"{tag}: url must start with http")
 
@@ -135,6 +144,8 @@ def main():
         "open_jobs": sum(1 for j in jobs if j.get("status") == "open"),
         "programs": len(programs),
         "sources": len(sources),
+        "tax_open_jobs": sum(1 for j in jobs if j.get("status") == "open" and j.get("fit_rank") == 1),
+        "tax_sources": sum(1 for s in sources if s.get("focus") == "tax"),
         "runs": len(runs),
         "errors": errors,
         "warnings": warnings,

@@ -18,6 +18,8 @@ _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 from common import (
     CONFIG_PATH,
     DOCS_DIR,
+    FIT_OTHER,
+    FIT_TAX,
     JOBS_PATH,
     PROGRAMS_PATH,
     ROOT,
@@ -48,7 +50,7 @@ def build_readme(jobs, programs, runs, config, generated):
     open_jobs = [j for j in jobs if j.get("status") == "open"]
     week_ago = (d0 - dt.timedelta(days=7)).isoformat()
     new_week = sorted([j for j in open_jobs if j.get("first_seen", "") >= week_ago],
-                      key=lambda j: (j.get("fit_rank", 3), j.get("employer", "")))
+                      key=lambda j: (j.get("fit_rank", FIT_OTHER), j.get("employer", "")))
     soon = (d0 + dt.timedelta(days=30)).isoformat()
     dl_items = []
     for j in open_jobs:
@@ -68,10 +70,12 @@ def build_readme(jobs, programs, runs, config, generated):
     lines.append(f"Agent link index (every source and open posting URL): {links_url}")
     lines.append("")
     lines.append(f"Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. "
-                 f"Tax roles first, then government, courts and public interest, then everything else. "
+                 f"Tax roles first, then everything else as one group: law firms, in-house, accounting firms, "
+                 f"government, courts and public interest, with none of them ranked above the others. "
                  f"An agent refreshes this every weekday morning; this file was generated {generated}.")
     lines.append("")
-    lines.append(f"Open postings: {len(open_jobs)} (tax-fit {sum(1 for j in open_jobs if j.get('fit_rank') == 1)}). "
+    lines.append(f"Open postings: {len(open_jobs)} (tax {sum(1 for j in open_jobs if j.get('fit_rank') == FIT_TAX)}, "
+                 f"everything else {sum(1 for j in open_jobs if j.get('fit_rank') != FIT_TAX)}). "
                  f"Programs tracked: {len(programs)}. Runs logged: {len(runs)}.")
     lines.append("")
     lines.append("## Deadlines in the next 30 days")
@@ -86,8 +90,7 @@ def build_readme(jobs, programs, runs, config, generated):
     lines.append("")
     if new_week:
         for j in new_week[:40]:
-            fit = {1: "TAX", 2: "GOV", 3: ""}.get(j.get("fit_rank"), "")
-            fit = f"{fit} " if fit else ""
+            fit = "TAX " if j.get("fit_rank") == FIT_TAX else ""
             lines.append(f"- {fit}[{j['employer']}: {j['title']}]({j['url']}), {j['city']}"
                          + (f", deadline {fmt_date(j['deadline'])}" if j.get("deadline") else ""))
     else:
@@ -117,9 +120,9 @@ def build_links_page(jobs, programs, sources, config, generated):
         f"<h1>Agent link index</h1><p>Generated {html.escape(generated)}. Every source, program and open posting URL on file.</p>",
     ]
     parts.append("<h2>Sources</h2><ol>")
-    for s in sources:
+    for s in sorted(sources, key=lambda s: 0 if s.get("focus") == "tax" else 1):
         if s.get("url"):
-            parts.append(li(f"{s.get('id')} ({s.get('check_frequency')})", s["url"]))
+            parts.append(li(f"{s.get('id')} ({s.get('focus') or 'general'}, {s.get('check_frequency')})", s["url"]))
     parts.append("</ol><h2>Programs</h2><ol>")
     for p in programs:
         if p.get("url"):
@@ -151,7 +154,7 @@ def main():
         },
         "jobs": jobs,
         "programs": programs,
-        "sources": [{"id": s.get("id"), "name": s.get("name"), "url": s.get("url"),
+        "sources": [{"id": s.get("id"), "name": s.get("name"), "url": s.get("url"), "focus": s.get("focus") or "general",
                      "check_frequency": s.get("check_frequency"), "last_checked": s.get("last_checked")} for s in sources],
         "runs": runs[-15:],
     }

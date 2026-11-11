@@ -38,6 +38,44 @@ JOB_STATUSES = ("open", "closed", "expired")
 CONFIDENCE = ("verified", "search_result")
 PROGRAM_STATUSES = ("open now", "rolling", "opens later", "likely missed for 2027", "closed")
 
+# Fit. Two tiers only: 1 = tax, 2 = everything else. Government, courts and public interest are
+# part of "everything else"; they are not a tier of their own.
+FIT_TAX = 1
+FIT_OTHER = 2
+FIT_RANKS = (FIT_TAX, FIT_OTHER)
+
+# Sources are either tax sources (walked first, every run) or general ones.
+SOURCE_FOCUS = ("tax", "general")
+CHECK_FREQUENCIES = ("every run", "weekly")
+
+# Employer types that count as the public side when the dashboard mixes the non-tax list.
+PUBLIC_EMPLOYER_TYPES = ("government", "federal", "clerkship", "public_interest")
+
+
+def normalize_fit(value):
+    """Return 1 for tax and 2 for everything else. The old three-tier scheme used 3 for 'other';
+    that is now 2. Anything unrecognized is returned unchanged so validation can reject it."""
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, str) and value.strip() in ("1", "2", "3"):
+        value = int(value.strip())
+    if value == 3:
+        return FIT_OTHER
+    return value
+
+
+def parse_bool(value):
+    """Lenient true/false for command-line values. Returns None when it is neither."""
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, str):
+        v = value.strip().lower()
+        if v in ("true", "yes", "y", "1"):
+            return True
+        if v in ("false", "no", "n", "0", ""):
+            return False
+    return None
+
 # Geography. Fort Lauderdale is the northern line. Everything in Miami-Dade is in.
 IN_ZONE_CITIES = [
     # Miami-Dade

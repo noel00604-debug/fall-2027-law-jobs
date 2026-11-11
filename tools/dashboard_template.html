@@ -10,7 +10,7 @@
 :root{
   --bg:#f4f5f7; --surface:#ffffff; --surface-2:#f0f2f5; --text:#171a20; --muted:#5f6675; --border:#dfe3e9;
   --accent:#1f4fd8; --accent-ink:#ffffff; --link:#1a4bd0;
-  --tax-ink:#0b5e57; --tax-bg:#d6f5ef; --gov-ink:#3b35a8; --gov-bg:#e4e3fb; --oth-ink:#4a5567; --oth-bg:#e6e9ef;
+  --tax-ink:#0b5e57; --tax-bg:#d6f5ef; --oth-ink:#4a5567; --oth-bg:#e6e9ef;
   --new-ink:#8a4b05; --new-bg:#fde9c4; --danger:#b42323; --warn:#a1580b; --ok:#1d7a3f;
   --shadow:0 1px 2px rgba(16,20,28,.05);
   --radius:12px;
@@ -18,14 +18,14 @@
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
   --bg:#0f1116; --surface:#171a21; --surface-2:#1e222b; --text:#e8eaef; --muted:#9aa3b3; --border:#2a2f3a;
   --accent:#6b93ff; --accent-ink:#0b1020; --link:#8db0ff;
-  --tax-ink:#7fe3d3; --tax-bg:#143e3a; --gov-ink:#b9b7ff; --gov-bg:#2b2a5e; --oth-ink:#c7cdd8; --oth-bg:#2a303c;
+  --tax-ink:#7fe3d3; --tax-bg:#143e3a; --oth-ink:#c7cdd8; --oth-bg:#2a303c;
   --new-ink:#ffd38a; --new-bg:#4a3010; --danger:#ff8a8a; --warn:#f0b35c; --ok:#6fd79a;
   --shadow:none;
 }}
 :root[data-theme="dark"]{
   --bg:#0f1116; --surface:#171a21; --surface-2:#1e222b; --text:#e8eaef; --muted:#9aa3b3; --border:#2a2f3a;
   --accent:#6b93ff; --accent-ink:#0b1020; --link:#8db0ff;
-  --tax-ink:#7fe3d3; --tax-bg:#143e3a; --gov-ink:#b9b7ff; --gov-bg:#2b2a5e; --oth-ink:#c7cdd8; --oth-bg:#2a303c;
+  --tax-ink:#7fe3d3; --tax-bg:#143e3a; --oth-ink:#c7cdd8; --oth-bg:#2a303c;
   --new-ink:#ffd38a; --new-bg:#4a3010; --danger:#ff8a8a; --warn:#f0b35c; --ok:#6fd79a;
   --shadow:none;
 }
@@ -46,6 +46,9 @@ h1{font-size:1.45rem;margin:0;letter-spacing:-.01em}
 .stat{background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius);padding:12px 14px}
 .stat .num{font-size:1.7rem;font-weight:650;line-height:1.1;letter-spacing:-.02em}
 .stat .lbl{color:var(--muted);font-size:.82rem;margin-top:2px}
+button.stat{appearance:none;font:inherit;color:inherit;text-align:left;cursor:pointer;width:100%}
+button.stat:hover,button.stat:focus-visible{border-color:var(--tax-ink)}
+button.stat .lbl{color:var(--link)}
 main{padding:8px 0 48px}
 section{margin-top:28px}
 h2{font-size:1.02rem;margin:0 0 10px;display:flex;align-items:baseline;gap:10px}
@@ -71,14 +74,13 @@ h2 .count{color:var(--muted);font-weight:500;font-size:.9rem}
 .job-head h3{font-size:1rem;margin:0;font-weight:620;flex:1 1 260px;line-height:1.3}
 .badge{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:999px;line-height:1.5}
 .badge.fit-1{background:var(--tax-bg);color:var(--tax-ink)}
-.badge.fit-2{background:var(--gov-bg);color:var(--gov-ink)}
-.badge.fit-3{background:var(--oth-bg);color:var(--oth-ink)}
 .badge.new{background:var(--new-bg);color:var(--new-ink)}
 .badge.closed{background:var(--oth-bg);color:var(--oth-ink)}
 .pill{display:inline-block;font-size:.78rem;color:var(--muted);border:1px solid var(--border);border-radius:999px;padding:1px 8px}
 .job-meta{color:var(--muted);font-size:.9rem;margin-top:4px;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center}
 .job-meta .emp{color:var(--text);font-weight:560}
 .job p{margin:6px 0 0;font-size:.92rem}
+.job p,.job h3,.job-meta,.prog p,.prog .name,.dl-what,.log li{overflow-wrap:anywhere}
 .job .lvl{color:var(--text)}
 .job .nts{color:var(--muted)}
 .job-foot{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin-top:10px;font-size:.86rem;color:var(--muted)}
@@ -121,14 +123,14 @@ footer{color:var(--muted);font-size:.84rem;padding:18px 0 40px;border-top:1px so
     <div class="title-row">
       <div>
         <h1>__TITLE__</h1>
-        <p class="sub">Entry-level and bar-pending attorney roles, Miami-Dade and Broward (Fort Lauderdale and south), for a 2027 start. Tax first, then government and courts, then the rest.</p>
+        <p class="sub">Entry-level and bar-pending attorney roles, Miami-Dade and Broward (Fort Lauderdale and south), for a 2027 start. Tax first, then everything else.</p>
       </div>
       <div class="updated"><span>Updated __UPDATED__</span><button class="btn" id="themeBtn" type="button" title="Switch theme">Theme</button></div>
     </div>
     <div class="stats" aria-label="Summary">
       <div class="stat"><div class="num" id="s-open">0</div><div class="lbl">open postings</div></div>
       <div class="stat"><div class="num" id="s-new">0</div><div class="lbl" id="s-new-lbl">new since your last visit</div></div>
-      <div class="stat"><div class="num" id="s-tax">0</div><div class="lbl">tax-fit postings</div></div>
+      <button class="stat" id="tile-tax" type="button" title="Show the tax postings"><div class="num" id="s-tax">0</div><div class="lbl">tax postings <span aria-hidden="true">&darr;</span></div></button>
       <div class="stat"><div class="num" id="s-dl">0</div><div class="lbl">deadlines in the next 14 days</div></div>
     </div>
   </div>
@@ -146,14 +148,13 @@ footer{color:var(--muted);font-size:.84rem;padding:18px 0 40px;border-top:1px so
       <div class="tabs" role="tablist" id="fitTabs">
         <button class="tab" role="tab" data-fit="all" aria-selected="true" type="button">All</button>
         <button class="tab" role="tab" data-fit="1" type="button">Tax</button>
-        <button class="tab" role="tab" data-fit="2" type="button">Government &amp; courts</button>
-        <button class="tab" role="tab" data-fit="3" type="button">Other</button>
+        <button class="tab" role="tab" data-fit="2" type="button">Everything else</button>
       </div>
       <input type="search" id="q" placeholder="Search employer, title, practice area" aria-label="Search postings">
       <select id="county" aria-label="County"><option value="all">Both counties</option><option>Miami-Dade</option><option>Broward</option></select>
       <select id="etype" aria-label="Employer type"><option value="all">All employer types</option></select>
       <select id="mine" aria-label="My status"><option value="all">Any status</option><option value="new">Untouched</option><option value="interested">Interested</option><option value="applied">Applied</option><option value="interview">Interview</option><option value="rejected">Rejected</option><option value="not_interested">Not interested</option></select>
-      <select id="sort" aria-label="Sort"><option value="fit">Sort: fit, then deadline</option><option value="deadline">Sort: deadline</option><option value="newest">Sort: newest first</option><option value="employer">Sort: employer</option></select>
+      <select id="sort" aria-label="Sort"><option value="fit">Sort: tax first</option><option value="deadline">Sort: deadline</option><option value="newest">Sort: newest first</option><option value="employer">Sort: employer</option></select>
       <label class="chk"><input type="checkbox" id="openOnly" checked> open only</label>
       <label class="chk"><input type="checkbox" id="hideNI" checked> hide not interested</label>
     </div>
@@ -186,6 +187,9 @@ footer{color:var(--muted);font-size:.84rem;padding:18px 0 40px;border-top:1px so
   function lsSet(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} }
   var my = lsGet('f27-status', {});
   var filters = lsGet('f27-filters', {fit:'all', q:'', county:'all', etype:'all', mine:'all', sort:'fit', openOnly:true, hideNI:true});
+  // Two tiers only (1 = tax, 2 = everything else). A tab saved under the old three-tab layout falls back to All.
+  if (['all','1','2'].indexOf(String(filters.fit)) < 0) { filters.fit = 'all'; }
+  if (lsGet('f27-scheme', 0) !== 2) { if (filters.fit === '2') { filters.fit = 'all'; } lsSet('f27-scheme', 2); lsSet('f27-filters', filters); }
   var theme = lsGet('f27-theme', null);
   if (theme) document.documentElement.setAttribute('data-theme', theme);
 
@@ -205,7 +209,8 @@ footer{color:var(--muted);font-size:.84rem;padding:18px 0 40px;border-top:1px so
   function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
   function rel(n){ if(n===0) return 'today'; if(n===1) return 'tomorrow'; if(n<0) return Math.abs(n)+' days ago'; return 'in '+n+' days'; }
   var TYPE_LABEL={law_firm:'Law firm',accounting_firm:'Accounting firm',government:'Government',federal:'Federal',clerkship:'Clerkship',public_interest:'Public interest',in_house:'In-house',other:'Other'};
-  var FIT_LABEL={1:'Tax',2:'Gov / courts',3:'Other'};
+  var PUBLIC_TYPES={government:1,federal:1,clerkship:1,public_interest:1};
+  function isTax(j){ return j.fit_rank===1; }
   var STATUS_LABEL={interested:'Interested',applied:'Applied',interview:'Interview',rejected:'Rejected',not_interested:'Not interested'};
   function isNew(j){ return j.first_seen && j.first_seen > newSince; }
   function myStatus(id){ return (my[id] && my[id].s) || ''; }
@@ -213,7 +218,7 @@ footer{color:var(--muted);font-size:.84rem;padding:18px 0 40px;border-top:1px so
   // ---------- header stats ----------
   var open = jobs.filter(function(j){ return j.status==='open'; });
   document.getElementById('s-open').textContent = open.length;
-  document.getElementById('s-tax').textContent = open.filter(function(j){ return j.fit_rank===1; }).length;
+  document.getElementById('s-tax').textContent = open.filter(isTax).length;
   var newCount = open.filter(isNew).length;
   document.getElementById('s-new').textContent = newCount;
   document.getElementById('s-new-lbl').textContent = prevVisit ? 'new since your last visit ('+fmt(isoDate(new Date(prevVisit)))+')' : 'new in the last 7 days';
@@ -224,7 +229,7 @@ footer{color:var(--muted);font-size:.84rem;padding:18px 0 40px;border-top:1px so
   (function(){
     var items=[];
     open.forEach(function(j){ var n=daysUntil(j.deadline); if(n!==null && n>=0 && n<=60) items.push({d:j.deadline,n:n,label:j.employer+': '+j.title,sub:j.city,url:j.url,kind:'posting',fit:j.fit_rank}); });
-    programs.forEach(function(p){ var n=daysUntil(p.deadline); if(p.status_for_noel!=='closed' && n!==null && n>=0 && n<=60) items.push({d:p.deadline,n:n,label:p.organization+': '+p.name,sub:p.city||'',url:p.url,kind:'program',fit:null}); });
+    programs.forEach(function(p){ var n=daysUntil(p.deadline); if(p.status_for_noel!=='closed' && n!==null && n>=0 && n<=60) items.push({d:p.deadline,n:n,label:p.organization+': '+p.name,sub:p.city||'',url:p.url,kind:'program',fit:p.tax?1:null}); });
     items.sort(function(a,b){ return a.d<b.d?-1:a.d>b.d?1:0; });
     var ol=document.getElementById('dl-list');
     document.getElementById('dl-count').textContent = items.length ? items.length+' in the next 60 days' : '';
@@ -248,20 +253,36 @@ footer{color:var(--muted);font-size:.84rem;padding:18px 0 40px;border-top:1px so
   document.getElementById('sort').value=filters.sort||'fit';
   document.getElementById('openOnly').checked=filters.openOnly!==false;
   document.getElementById('hideNI').checked=filters.hideNI!==false;
-  Array.prototype.forEach.call(document.querySelectorAll('#fitTabs .tab'), function(t){ t.setAttribute('aria-selected', String(t.dataset.fit===(filters.fit||'all'))); t.addEventListener('click', function(){ filters.fit=t.dataset.fit; Array.prototype.forEach.call(document.querySelectorAll('#fitTabs .tab'), function(x){ x.setAttribute('aria-selected', String(x===t)); }); save(); render(); }); });
+  var fitTabs = document.querySelectorAll('#fitTabs .tab');
+  function setFit(v){ filters.fit=v; Array.prototype.forEach.call(fitTabs, function(x){ x.setAttribute('aria-selected', String(x.dataset.fit===v)); }); save(); render(); }
+  Array.prototype.forEach.call(fitTabs, function(t){ t.setAttribute('aria-selected', String(t.dataset.fit===(filters.fit||'all'))); t.addEventListener('click', function(){ setFit(t.dataset.fit); }); });
+  document.getElementById('tile-tax').addEventListener('click', function(){ setFit('1'); document.getElementById('jobs').scrollIntoView({behavior:'smooth', block:'start'}); });
   ['q','county','etype','mine','sort','openOnly','hideNI'].forEach(function(id){ var el=document.getElementById(id); el.addEventListener(el.type==='search'?'input':'change', function(){ filters[id]= el.type==='checkbox'? el.checked : el.value; save(); render(); }); });
   function save(){ lsSet('f27-filters', filters); }
 
   // ---------- jobs ----------
   function sortJobs(list){
     var s=filters.sort||'fit';
-    return list.slice().sort(function(a,b){
-      if(s==='newest'){ return (b.first_seen||'')<(a.first_seen||'')?-1:(b.first_seen||'')>(a.first_seen||'')?1:cmpDl(a,b); }
-      if(s==='deadline'){ return cmpDl(a,b) || (a.fit_rank-b.fit_rank); }
-      if(s==='employer'){ return a.employer.localeCompare(b.employer) || a.title.localeCompare(b.title); }
-      return (a.fit_rank-b.fit_rank) || cmpDl(a,b) || ((b.first_seen||'')<(a.first_seen||'')?-1:1);
-    });
-    function cmpDl(a,b){ var x=a.deadline||'9999', y=b.deadline||'9999'; return x<y?-1:x>y?1:0; }
+    // Upcoming deadlines first (soonest on top), then postings with no deadline, then any whose deadline has already passed.
+    function dlKey(j){ var d=j.deadline; if(!d) return '9999'; return d<todayStr ? 'zzzz'+d : d; }
+    function cmpDl(a,b){ var x=dlKey(a), y=dlKey(b); return x<y?-1:x>y?1:0; }
+    function cmpNew(a,b){ var x=a.first_seen||'', y=b.first_seen||''; return y<x?-1:y>x?1:0; }
+    function cmpName(a,b){ return a.employer.localeCompare(b.employer) || a.title.localeCompare(b.title); }
+    function taxFirst(a,b){ return (isTax(a)?0:1)-(isTax(b)?0:1); }
+    if(s==='newest'){ return list.slice().sort(function(a,b){ return cmpNew(a,b) || taxFirst(a,b) || cmpDl(a,b) || cmpName(a,b); }); }
+    if(s==='deadline'){ return list.slice().sort(function(a,b){ return cmpDl(a,b) || taxFirst(a,b) || cmpName(a,b); }); }
+    if(s==='employer'){ return list.slice().sort(cmpName); }
+    // Default: every tax posting first. Then everything else as one group, alternating private
+    // employers (law firms, in-house, accounting) with public ones (government, courts, legal aid)
+    // so neither side fills the top of the list. Inside each side: soonest deadline, then newest.
+    function byUrgency(a,b){ return cmpDl(a,b) || cmpNew(a,b) || cmpName(a,b); }
+    var tax=list.filter(isTax).sort(byUrgency);
+    var rest=list.filter(function(j){ return !isTax(j); });
+    var priv=rest.filter(function(j){ return !PUBLIC_TYPES[j.employer_type]; }).sort(byUrgency);
+    var pub=rest.filter(function(j){ return !!PUBLIC_TYPES[j.employer_type]; }).sort(byUrgency);
+    var mixed=[], i=0, n=Math.max(priv.length, pub.length);
+    for(i=0;i<n;i++){ if(i<priv.length) mixed.push(priv[i]); if(i<pub.length) mixed.push(pub[i]); }
+    return tax.concat(mixed);
   }
   function render(){
     var q=(filters.q||'').trim().toLowerCase();
@@ -301,7 +322,7 @@ footer{color:var(--muted);font-size:.84rem;padding:18px 0 40px;border-top:1px so
     if(dead) foot.push('<span>'+esc(j.status==='expired'?'Expired':'Closed')+(j.closed_on?' '+esc(fmt(j.closed_on)):'')+(j.closed_reason?': '+esc(j.closed_reason):'')+'</span>');
     var opts=['<option value="">Set status</option>'].concat(Object.keys(STATUS_LABEL).map(function(k){ return '<option value="'+k+'"'+(ms===k?' selected':'')+'>'+STATUS_LABEL[k]+'</option>'; })).join('');
     return '<article class="job'+(isNew(j)&&!dead?' is-new':'')+(dead?' dead':'')+(ms?' my-'+ms:'')+'" data-id="'+esc(j.id)+'">'
-      +'<div class="job-head"><span class="badge fit-'+j.fit_rank+'">'+FIT_LABEL[j.fit_rank]+'</span>'
+      +'<div class="job-head">'+(isTax(j)?'<span class="badge fit-1">Tax</span>':'')
       +(isNew(j)&&!dead?'<span class="badge new">New</span>':'')+(dead?'<span class="badge closed">'+esc(j.status)+'</span>':'')
       +'<h3><a href="'+esc(j.url)+'" target="_blank" rel="noopener">'+esc(j.title)+'</a></h3></div>'
       +'<div class="job-meta"><span class="emp">'+esc(j.employer)+'</span><span>·</span><span>'+esc(j.city)+(j.remote?' (remote)':'')+'</span><span>·</span><span class="pill">'+esc(TYPE_LABEL[j.employer_type]||j.employer_type)+'</span>'
@@ -321,11 +342,11 @@ footer{color:var(--muted);font-size:.84rem;padding:18px 0 40px;border-top:1px so
     var host=document.getElementById('prog-groups');
     document.getElementById('prog-count').textContent = programs.length;
     order.forEach(function(st){
-      var list=programs.filter(function(p){ return p.status_for_noel===st; }).sort(function(a,b){ return (a.deadline||'9999')<(b.deadline||'9999')?-1:1; });
+      var list=programs.filter(function(p){ return p.status_for_noel===st; }).sort(function(a,b){ var t=(a.tax?0:1)-(b.tax?0:1); if(t) return t; var x=a.deadline||'9999', y=b.deadline||'9999'; return x<y?-1:x>y?1:0; });
       if(!list.length) return;
       var inner=list.map(function(p){
         var n=daysUntil(p.deadline);
-        return '<div class="prog"><div><a class="name" href="'+esc(p.url)+'" target="_blank" rel="noopener">'+esc(p.name)+'</a>'+(p.deadline?' <span class="pill">deadline '+esc(fmt(p.deadline))+(n!==null&&n>=0?', '+esc(rel(n)):'')+'</span>':'')+'</div>'
+        return '<div class="prog"><div>'+(p.tax?'<span class="badge fit-1">Tax</span> ':'')+'<a class="name" href="'+esc(p.url)+'" target="_blank" rel="noopener">'+esc(p.name)+'</a>'+(p.deadline?' <span class="pill">deadline '+esc(fmt(p.deadline))+(n!==null&&n>=0?', '+esc(rel(n)):'')+'</span>':'')+'</div>'
           +'<div class="org">'+esc(p.organization)+(p.city?' · '+esc(p.city):'')+'</div>'
           +(p.window?'<p><strong>Window:</strong> '+esc(p.window)+'</p>':'')
           +(p.eligibility_note?'<p><strong>Eligibility:</strong> '+esc(p.eligibility_note)+'</p>':'')
