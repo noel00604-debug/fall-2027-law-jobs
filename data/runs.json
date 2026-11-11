@@ -116,5 +116,23 @@
     ],
     "date": "2026-11-10",
     "logged_at": "2026-11-10T06:48:41-05:00"
+  },
+  {
+    "new_ids": [
+      "greenberg-traurig-llp-private-wealth-services-associate-fort-lauderdale-office-fort-lauderdale",
+      "greenberg-traurig-llp-tax-associate-junior-international-tax-practice-miami",
+      "nichols-cauley-tax-attorney-associate-coral-gables",
+      "deagostino-legal-group-recruiter-for-an-law-clerk-1st-year-associate-miami-miami"
+    ],
+    "closed_ids": [],
+    "searches": 38,
+    "fetches": 22,
+    "sources_checked": 19,
+    "notes": "3 new tax postings (1 verified, 2 search_result) and 1 non-tax; 8 open postings re-verified; 1 expired (Community Justice Project eviction defense).",
+    "errors": [
+      "gobiglaw, Indeed viewjob and ZipRecruiter transactional page not fetchable; ABA/Florida Bar Career Center search returned no results"
+    ],
+    "date": "2026-11-11",
+    "logged_at": "2026-11-11T06:53:01-05:00"
   }
 ]

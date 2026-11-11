@@ -42,7 +42,7 @@
     "confidence": "verified",
     "notes": "Exact fit for your timeline (May 2027 JD, July 2027 bar, Sept 2027 start); apply with resume, cover letter specifying the 3L Staff Attorney position, and writing sample to Vivian Chavez, vchavez@legalservicesmiami.org. Tax is one of the listed practice areas.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "status": "open"
   },
   {
@@ -366,7 +366,7 @@
     "confidence": "verified",
     "notes": "Open until filled; email one consolidated PDF (cover letter, resume with salary history, transcript, bar proof if any, writing sample, three references) to augustin-birch_applicants@flsd.uscourts.gov with announcement number in the subject.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "status": "open"
   },
   {
@@ -506,7 +506,7 @@
     "confidence": "verified",
     "notes": "Apply to careers@aijustice.org, subject 'STAFF ATTORNEY'; recorded mainly as evidence that AI Justice hires attorneys with any-state bar and no experience minimum.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "status": "open"
   },
   {
@@ -599,7 +599,9 @@
     "notes": "Priority given to applications before Nov 10, 2026; send resume, cover letter and references to recruiting@communityjusticeproject.com; 1-year minimum makes it a stretch for a 2027 graduate.",
     "first_seen": "2026-11-08",
     "last_seen": "2026-11-08",
-    "status": "open"
+    "status": "expired",
+    "closed_on": "2026-11-11",
+    "closed_reason": "application deadline passed"
   },
   {
     "id": "women-in-distress-of-broward-county-inc-dependency-staff-attorney-fort-lauderdale",
@@ -690,7 +692,7 @@
     "confidence": "verified",
     "notes": "Locations Miami, Atlanta, Charlotte, Dallas, Houston; posting says applications accepted until November 23 (year not printed, presumed 2026); EY limits applicants to two applications per six months",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-11",
     "status": "open"
   },
   {
@@ -713,7 +715,7 @@
     "confidence": "verified",
     "notes": "Locations Miami and Charlotte; EY early-careers Miami/Tax list pages render empty to scrapers, open in a browser to confirm status",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-11",
     "status": "open"
   },
   {
@@ -736,7 +738,7 @@
     "confidence": "verified",
     "notes": "Offices Chicago, Miami, New York; not open to you this year (current Tax LLM students only), but if you enroll in the UM Tax LLM in 2027-28 the equivalent posting should appear around Oct 2027; Baker McKenzie Miami tax associate postings are otherwise 3+ years",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-11",
     "status": "open"
   },
   {
@@ -1288,7 +1290,7 @@
     "confidence": "verified",
     "notes": "Miami and Plantation are both listed. You apply on USAJOBS with a two-page resume, transcript, 5 to 10 page writing sample and class rank or GPA proof. Tax LL.M. students use the separate GS-12 announcement CCCM-26-13078114-HON.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-11",
     "status": "open"
   },
   {
@@ -1311,7 +1313,7 @@
     "confidence": "verified",
     "notes": "Open until filled. Email one PDF with cover letter, resume, transcript, writing sample and two references to LouisApplications@flsd.uscourts.gov with 2026-JDS-27 in the subject line. The notice warns of 50 to 65 hour weeks.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-11",
     "status": "open"
   },
   {
@@ -1381,6 +1383,98 @@
     "notes": "Could not open the posting. The snippet says the firm is in Plantation and wants a recently barred attorney. Confirm the opening on masseylaw.com or Indeed before applying.",
     "first_seen": "2026-11-10",
     "last_seen": "2026-11-10",
+    "status": "open"
+  },
+  {
+    "id": "greenberg-traurig-llp-private-wealth-services-associate-fort-lauderdale-office-fort-lauderdale",
+    "employer": "Greenberg Traurig, LLP",
+    "title": "Private Wealth Services Associate (Fort Lauderdale Office)",
+    "city": "Fort Lauderdale",
+    "county": "Broward",
+    "remote": false,
+    "employer_type": "law_firm",
+    "practice_area": "Private wealth: estate planning and tax",
+    "fit_rank": 1,
+    "level_note": "Recent law school graduate or junior attorney, 0-4 years. JD or JD/LL.M. required; LL.M. in Taxation or Estate Planning is a plus, not required.",
+    "start_timing": null,
+    "deadline": null,
+    "posted": null,
+    "salary": null,
+    "url": "https://www.glassdoor.com/job-listing/jv?jl=1010256962372",
+    "source": "web_search, then opened the Glassdoor listing",
+    "confidence": "verified",
+    "notes": "Work includes tax memos and gift, estate and GST tax returns. Florida Bar admission or prompt licensing is expected, so this fits a post-bar start. Send resume, transcript and writing sample.",
+    "first_seen": "2026-11-11",
+    "last_seen": "2026-11-11",
+    "status": "open"
+  },
+  {
+    "id": "greenberg-traurig-llp-tax-associate-junior-international-tax-practice-miami",
+    "employer": "Greenberg Traurig, LLP",
+    "title": "Tax Associate (Junior), International Tax Practice",
+    "city": "Miami",
+    "county": "Miami-Dade",
+    "remote": false,
+    "employer_type": "law_firm",
+    "practice_area": "International tax",
+    "fit_rank": 1,
+    "level_note": "Titled Junior. The result I saw did not show years of experience or bar status.",
+    "start_timing": null,
+    "deadline": null,
+    "posted": null,
+    "salary": null,
+    "url": "https://www.gobiglaw.com/jobs/552140209-tax-associate-junior-mia-at-greenberg-traurig",
+    "source": "web_search",
+    "confidence": "search_result",
+    "notes": "I could not open this posting, only the search result. Check the experience requirement on gtlaw.com before sending anything. Indeed showed it as 30+ days old.",
+    "first_seen": "2026-11-11",
+    "last_seen": "2026-11-11",
+    "status": "open"
+  },
+  {
+    "id": "nichols-cauley-tax-attorney-associate-coral-gables",
+    "employer": "Nichols Cauley",
+    "title": "Tax Attorney (Associate)",
+    "city": "Coral Gables",
+    "county": "Miami-Dade",
+    "remote": false,
+    "employer_type": "accounting_firm",
+    "practice_area": "Tax planning, compliance and advisory",
+    "fit_rank": 1,
+    "level_note": "Search result says entry-level opportunity for a recent law school graduate.",
+    "start_timing": null,
+    "deadline": null,
+    "posted": null,
+    "salary": null,
+    "url": "https://www.ziprecruiter.com/Jobs/Tax-Attorney/-in-Miami,FL",
+    "source": "web_search",
+    "confidence": "search_result",
+    "notes": "CPA and advisory firm, Coral Gables office. I could not open the posting itself, and the ZipRecruiter page I fetched no longer listed it, so confirm it is still open on the Nichols Cauley careers page.",
+    "first_seen": "2026-11-11",
+    "last_seen": "2026-11-11",
+    "status": "open"
+  },
+  {
+    "id": "deagostino-legal-group-recruiter-for-an-law-clerk-1st-year-associate-miami-miami",
+    "employer": "DeAgostino Legal Group (recruiter for an insurance defense firm)",
+    "title": "Law Clerk / 1st Year Associate (Miami)",
+    "city": "Miami",
+    "county": "Miami-Dade",
+    "remote": false,
+    "employer_type": "law_firm",
+    "practice_area": "Insurance defense and personal injury litigation",
+    "fit_rank": 2,
+    "level_note": "0-3 years of experience. Law clerk role that turns into an associate role after passing the Florida Bar exam.",
+    "start_timing": null,
+    "deadline": null,
+    "posted": null,
+    "salary": null,
+    "url": "https://www.deagostinolegal.com/open-positions",
+    "source": "web_fetch of recruiter open positions page",
+    "confidence": "verified",
+    "notes": "The hiring firm is not named. Apply through the recruiter, Nick DeAgostino, by sending a resume. This is a clerk-first path that fits your post-bar timing.",
+    "first_seen": "2026-11-11",
+    "last_seen": "2026-11-11",
     "status": "open"
   }
 ]

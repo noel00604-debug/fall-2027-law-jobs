@@ -4,9 +4,9 @@ Dashboard: https://noel00604-debug.github.io/fall-2027-law-jobs/
 
 Agent link index (every source and open posting URL): https://noel00604-debug.github.io/fall-2027-law-jobs/links.html
 
-Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 11, 2026, 12:23 AM ET.
+Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 11, 2026, 6:53 AM ET.
 
-Open postings: 58 (tax 5, everything else 53). Programs tracked: 39. Runs logged: 4.
+Open postings: 61 (tax 8, everything else 53). Programs tracked: 39. Runs logged: 5.
 
 ## Deadlines in the next 30 days
 
@@ -32,8 +32,11 @@ Open postings: 58 (tax 5, everything else 53). Programs tracked: 39. Runs logged
 - TAX [Baker McKenzie: Private Capital Tax Law Clerk](https://careers.bakermckenzie.com/en_US/opportunities/JobDetail/Private-Capital-Tax-Law-Clerk/3480), Miami
 - TAX [EY (Ernst & Young): USA - Tax - ITTS - International Corporate Tax Advisory - JD/LLM - Staff 2](https://studentjobs.ey.com/job/miami/usa-tax-itts-international-corporate-tax-advisory-jd-llm-staff-2/39053/69522633280), Miami, deadline Nov 23, 2026
 - TAX [EY (Ernst & Young): USA - Tax - Indirect Tax - SALT Transactions - JD/LLM - Analyst](https://usearlycareers.ey.com/job/miami/usa-tax-indirect-tax-salt-transactions-jd-llm-analyst/39053/100310765008), Miami
+- TAX [Greenberg Traurig, LLP: Private Wealth Services Associate (Fort Lauderdale Office)](https://www.glassdoor.com/job-listing/jv?jl=1010256962372), Fort Lauderdale
+- TAX [Greenberg Traurig, LLP: Tax Associate (Junior), International Tax Practice](https://www.gobiglaw.com/jobs/552140209-tax-associate-junior-mia-at-greenberg-traurig), Miami
 - TAX [IRS Office of Chief Counsel: Honors Program Law Clerk (J.D. Students), GS-11, announcement CCCM-26-13078185-HON](https://www.usajobs.gov/job/886745900), Miami, deadline Dec 11, 2026
 - TAX [Legal Services of Greater Miami, Inc.: Staff Attorney (for current 3L law students only)](https://www.legalservicesmiami.org/careers), Miami, deadline Nov 16, 2026
+- TAX [Nichols Cauley: Tax Attorney (Associate)](https://www.ziprecruiter.com/Jobs/Tax-Attorney/-in-Miami,FL), Coral Gables
 - [Acosta & Associates, P.A.: Associate Attorney (insurance defense)](https://to.indeed.com/aam9x6kbxc6n), Coral Gables
 - [Americans for Immigrant Justice (AI Justice): Staff Attorney (anticipated 2-year contract term)](https://www.idealist.org/en/nonprofit-job/9f38ed261d1f440e974406ea7ae8c042-staff-attorney-americans-for-immigrant-justice-miami), Miami (hybrid; must be based in Florida), deadline Nov 15, 2026
 - [Blood Law, PLLC: Associate Attorney - Family Law](https://to.indeed.com/aab6pv2fh6cv), Coral Gables
@@ -47,7 +50,7 @@ Open postings: 58 (tax 5, everything else 53). Programs tracked: 39. Runs logged
 - [Cole, Scott & Kissane, P.A.: General Liability Attorney](https://recruiting.ultipro.com/COL1035CSKK/JobBoard/dcad0375-6d68-4c23-80e1-6fc0eb806d1f/OpportunityDetail?opportunityId=d2cbd95e-b61b-4cb7-b351-f734054072c9), Miami
 - [Cole, Scott & Kissane, P.A.: First Party Property Attorney](https://recruiting.ultipro.com/COL1035CSKK/JobBoard/dcad0375-6d68-4c23-80e1-6fc0eb806d1f/OpportunityDetail?opportunityId=b33bc417-1aeb-4782-990c-bab61c875027), Miami
 - [Cole, Scott & Kissane, P.A.: General Liability Attorney](https://recruiting.ultipro.com/COL1035CSKK/JobBoard/dcad0375-6d68-4c23-80e1-6fc0eb806d1f/OpportunityDetail?opportunityId=d2b56829-90e4-4115-b22d-27199d0efcfc), Plantation
-- [Community Justice Project, Inc. (with Catalyst Miami): Staff Attorney, Eviction Defense](https://to.indeed.com/aa2nv8njsdcz), Miami (hybrid, 33137), deadline Nov 10, 2026
+- [DeAgostino Legal Group (recruiter for an insurance defense firm): Law Clerk / 1st Year Associate (Miami)](https://www.deagostinolegal.com/open-positions), Miami
 - [Disability Rights Florida: Staff Attorney, Client Assistance Program / Community and Healthcare Services (two positions)](https://disabilityrightsflorida.org/about/position/staff_attorney_cap_chs), Fort Lauderdale (or Tampa, Gainesville, Tallahassee, or fully remote for Florida residents)
 - [Eleventh Judicial Circuit of Florida: Trial Court Staff Attorney (Legal Clerk), Office of the General Counsel (State Funded)](https://www.governmentjobs.com/careers/jud11flcourts/jobs/5223873/trial-court-staff-attorney-legal-clerk-office-of-the-general-counsel-state-f), Miami
 - [Florida Department of Children and Families, Children's Legal Services: Attorney (Position 60057845)](https://jobs.myflorida.com/job/MIAMI-ATTORNEY-60057845-FL-33128/1063759800/), Miami, deadline Nov 15, 2026
@@ -66,9 +69,6 @@ Open postings: 58 (tax 5, everything else 53). Programs tracked: 39. Runs logged
 - [Legal Aid Service of Broward County, Inc.: FFLA Housing Attorney](https://www.browardlegalaid.org/careers/), Plantation
 - [Legal Aid Service of Broward County, Inc.: Education Legal Rights Attorney](https://www.browardlegalaid.org/careers/), Plantation
 - [Legal Aid Service of Broward County, Inc. (MISSION UNITED Veterans Pro Bono Project): Staff Attorney, Veterans Unit (not remote)](https://careers.simplyhired.com/job/lmO9dmX-1mXYoettAW69j5Ww4hh9gPs0m2OWS2c-BNoDVmHiX3gg0Q), Plantation
-- [Lennar Corporation: Legal Counsel - Litigation (In-house)](https://careers.lennar.com/job/409/legal_counsel_litigation), Miami
-- [Marcos Rothman Valdes, PLLC: Associate Attorney (workers' compensation defense)](https://to.indeed.com/aamjs4kvphyp), Miami
-- [Massey, Coican & King, PLLC: Workers' Compensation Defense Attorney (recently graduated and barred)](https://www.indeed.com/q-entry-level-legal-l-miami,-fl-jobs.html), Plantation
 
 ## How it works
 
