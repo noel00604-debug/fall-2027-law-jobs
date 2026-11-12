@@ -134,5 +134,29 @@
     ],
     "date": "2026-11-11",
     "logged_at": "2026-11-11T06:53:01-05:00"
+  },
+  {
+    "new_ids": [
+      "pwc-miami-tax-llm-associate-summer-fall-2027-miami",
+      "direct-counsel-recruiting-for-an-unnamed-first-year-associate-corporate-miami-miami",
+      "kubicki-draper-entry-level-pre-suit-litigation-associate-attorney-fort-lauderdale",
+      "george-a-david-law-clerk-coral-gables",
+      "gaude-business-and-infrastructure-soluti-corporate-attorney-miami",
+      "quevedo-law-associate-attorney-miami",
+      "now-hiring-you-llc-law-firm-client-estate-planning-and-real-estate-associate-attorney-entry-coral-gables",
+      "exact-billing-solutions-ebs-associate-attorney-entry-level-insurance-lauderdale-lakes",
+      "ryder-system-junior-litigation-attorney-miami"
+    ],
+    "closed_ids": [],
+    "searches": 28,
+    "fetches": 33,
+    "sources_checked": 19,
+    "notes": "Tax block and most of the rest block run; 1 tax and 8 non-tax added, mostly search_result; 8 postings re-verified; usajobs gov search and assistant SA search not run.",
+    "errors": [
+      "goinhouse, EY, Akerman, Moffa and some ZipRecruiter detail fetches refused",
+      "site:jobs.floridabar.org and site:gtlaw workday searches returned no results"
+    ],
+    "date": "2026-11-12",
+    "logged_at": "2026-11-12T06:53:42-05:00"
   }
 ]
