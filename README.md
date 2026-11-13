@@ -4,9 +4,9 @@ Dashboard: https://noel00604-debug.github.io/fall-2027-law-jobs/
 
 Agent link index (every source and open posting URL): https://noel00604-debug.github.io/fall-2027-law-jobs/links.html
 
-Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 12, 2026, 6:53 AM ET.
+Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 13, 2026, 6:51 AM ET.
 
-Open postings: 70 (tax 9, everything else 61). Programs tracked: 39. Runs logged: 5.
+Open postings: 74 (tax 9, everything else 65). Programs tracked: 39. Runs logged: 6.
 
 ## Deadlines in the next 30 days
 
@@ -40,6 +40,7 @@ Open postings: 70 (tax 9, everything else 61). Programs tracked: 39. Runs logged
 - TAX [PwC: Miami - Tax LLM - Associate - Summer/Fall 2027](https://www.goinhouse.com/jobs/615526184-miami-tax-llm-associate-summer-fall-2027-at-pwc), Miami
 - [Acosta & Associates, P.A.: Associate Attorney (insurance defense)](https://to.indeed.com/aam9x6kbxc6n), Coral Gables
 - [Americans for Immigrant Justice (AI Justice): Staff Attorney (anticipated 2-year contract term)](https://www.idealist.org/en/nonprofit-job/9f38ed261d1f440e974406ea7ae8c042-staff-attorney-americans-for-immigrant-justice-miami), Miami (hybrid; must be based in Florida), deadline Nov 15, 2026
+- [Beck Legal Advisors: Junior Associate Attorney](https://www.ziprecruiter.com/Jobs/Real-Estate-Attorney/-in-Miami-Beach,FL), Fort Lauderdale
 - [Blood Law, PLLC: Associate Attorney - Family Law](https://to.indeed.com/aab6pv2fh6cv), Coral Gables
 - [Broward Litigation Firm (name withheld on posting): Associate Attorney (civil / commercial litigation)](https://to.indeed.com/aayhgczqhwmg), Fort Lauderdale
 - [Broward State Attorney's Office (17th Judicial Circuit): Assistant State Attorney (New Hire)](https://browardsao.com/employment), Fort Lauderdale
@@ -51,6 +52,7 @@ Open postings: 70 (tax 9, everything else 61). Programs tracked: 39. Runs logged
 - [Cole, Scott & Kissane, P.A.: General Liability Attorney](https://recruiting.ultipro.com/COL1035CSKK/JobBoard/dcad0375-6d68-4c23-80e1-6fc0eb806d1f/OpportunityDetail?opportunityId=d2cbd95e-b61b-4cb7-b351-f734054072c9), Miami
 - [Cole, Scott & Kissane, P.A.: First Party Property Attorney](https://recruiting.ultipro.com/COL1035CSKK/JobBoard/dcad0375-6d68-4c23-80e1-6fc0eb806d1f/OpportunityDetail?opportunityId=b33bc417-1aeb-4782-990c-bab61c875027), Miami
 - [Cole, Scott & Kissane, P.A.: General Liability Attorney](https://recruiting.ultipro.com/COL1035CSKK/JobBoard/dcad0375-6d68-4c23-80e1-6fc0eb806d1f/OpportunityDetail?opportunityId=d2b56829-90e4-4115-b22d-27199d0efcfc), Plantation
+- [Cueto Law Group, P.L.: Associate Attorney (recent law school graduate)](https://www.indeed.com/q-entry-level-attorney-l-miami,-fl-jobs.html), Miami
 - [DeAgostino Legal Group (recruiter for an insurance defense firm): Law Clerk / 1st Year Associate (Miami)](https://www.deagostinolegal.com/open-positions), Miami
 - [Direct Counsel (recruiting for an unnamed AmLaw 100 firm): First Year Associate (Corporate) - Miami](https://www.ziprecruiter.com/c/Direct-Counsel/Job/First-Year-Associate-(Corporate)-Miami/-in-Miami,FL?jid=a06bf9c90c34fead), Miami
 - [Disability Rights Florida: Staff Attorney, Client Assistance Program / Community and Healthcare Services (two positions)](https://disabilityrightsflorida.org/about/position/staff_attorney_cap_chs), Fort Lauderdale (or Tampa, Gainesville, Tallahassee, or fully remote for Florida residents)
@@ -60,15 +62,13 @@ Open postings: 70 (tax 9, everything else 61). Programs tracked: 39. Runs logged
 - [Florida Department of Children and Families, Children's Legal Services: Senior Attorney (Position 60071390)](https://jobs.myflorida.com/job/FORT-LAUDERDALE-SENIOR-ATTORNEY-60071390-FL-33301/1399846100/), Fort Lauderdale, deadline Nov 15, 2026
 - [Florida Justice Institute: Staff Attorney, Individual Cases](https://fji.law/work-with-us/), Miami
 - [Florida Office of the Attorney General, Civil Litigation Unit: Attorney-Assistant, Assistant & Senior Assistant Attorney General (Attorney-Assistant AAG is the entry level)](https://jobs.myflorida.com/job/WEST-PALM-BEACH-Attorney-Assistant,-Assistant-&-Senior-Assistant-Attorney-General-FL-33401/1442879100/), Fort Lauderdale (ZIPs 33301, 33315); also West Palm Beach and Tallahassee locations, deadline Nov 19, 2026
+- [Florida Third District Court of Appeal (State Courts System): District Court Staff Attorney (Position 22006294)](https://www.inhouseblog.com/miami-legal-jobs/), Miami
 - [Frenkel Lambert Weisman & Gordon, LLP: Associate Attorney (Bankruptcy / creditors' rights)](https://to.indeed.com/aav7ycy9ptdx), Fort Lauderdale
 - [Gaude Business & Infrastructure Solutions: Corporate Attorney](https://www.indeed.com/q-gaude-business-&-infrastructure-solutions-l-miami,-fl-jobs.html), Miami
 - [George A David: Law Clerk](https://www.indeed.com/q-george-a-david-l-coral-gables,-fl-jobs.html), Coral Gables
 - [Hinshaw & Culbertson LLP: Insurance Coverage Attorney](https://hinshawlaw.applicantstack.com/x/detail/a2j6h4h8q7lg), Coral Gables
 - [Hinshaw & Culbertson LLP: Insurance Coverage Attorney](https://hinshawlaw.applicantstack.com/x/detail/a2j6h4h8re9s), Fort Lauderdale
 - [International Law Partners LLP: 1st Yr Litigation Associate (Newly Barred)](https://to.indeed.com/aancdj7qb84m), Hollywood
-- [Kubicki Draper: Insurance Defense Associate Attorney](https://to.indeed.com/aaq6wppyvrww), Fort Lauderdale
-- [Kubicki Draper: Entry-Level Pre-Suit / Litigation Associate Attorney](https://www.ziprecruiter.com/c/Kubicki-Draper/Job/Entry-Level-Pre-Suit-Litigation-Associate-Attorney/-in-Fort-Lauderdale,FL?jid=3e47dd5ac1727e71), Fort Lauderdale
-- [Law Office of the Public Defender, 17th Judicial Circuit (Broward): Assistant Public Defender (Candidate)](https://www.browarddefender.org/jobs-internships/attorney-job/), Fort Lauderdale
 
 ## How it works
 

@@ -158,5 +158,24 @@
     ],
     "date": "2026-11-12",
     "logged_at": "2026-11-12T06:53:42-05:00"
+  },
+  {
+    "new_ids": [
+      "cueto-law-group-p-l-associate-attorney-recent-law-school-graduate-miami",
+      "beck-legal-advisors-junior-associate-attorney-fort-lauderdale",
+      "one-park-financial-jr-b2b-associate-attorney-miami",
+      "florida-third-district-court-of-appeal-s-district-court-staff-attorney-position-22006294-miami"
+    ],
+    "closed_ids": [],
+    "searches": 30,
+    "fetches": 14,
+    "sources_checked": 12,
+    "notes": "No new tax postings. Four search-result records added for other employers. Seven open postings re-verified, all still live. DOJ Civil Division attorney announcement and DCF 60074616 were closed or unadvertised and not added.",
+    "errors": [
+      "EY VAT Miami Analyst page, Indeed viewjob and two governmentjobs print pages refused by fetch service",
+      "site:jobs.floridabar.org and site:gtlaw.wd1 searches returned no results"
+    ],
+    "date": "2026-11-13",
+    "logged_at": "2026-11-13T06:51:37-05:00"
   }
 ]

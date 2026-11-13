@@ -19,7 +19,7 @@
     "confidence": "verified",
     "notes": "Best federal entry point in zone; state division preference and office (Miami or Fort Lauderdale) in cover letter; requires cover letter, writing sample, transcript. Contact Melissa.Innocent@usdoj.gov, 305-961-9026.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-13",
     "status": "open"
   },
   {
@@ -42,7 +42,7 @@
     "confidence": "verified",
     "notes": "Exact fit for your timeline (May 2027 JD, July 2027 bar, Sept 2027 start); apply with resume, cover letter specifying the 3L Staff Attorney position, and writing sample to Vivian Chavez, vchavez@legalservicesmiami.org. Tax is one of the listed practice areas.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-12",
+    "last_seen": "2026-11-13",
     "status": "open"
   },
   {
@@ -343,7 +343,7 @@
     "confidence": "verified",
     "notes": "Email mini application and resume to C17.Apps@gal.fl.gov or apply via guardianadlitem.org (select Broward).",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-13",
     "status": "open"
   },
   {
@@ -506,7 +506,7 @@
     "confidence": "verified",
     "notes": "Apply to careers@aijustice.org, subject 'STAFF ATTORNEY'; recorded mainly as evidence that AI Justice hires attorneys with any-state bar and no experience minimum.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-11",
+    "last_seen": "2026-11-13",
     "status": "open"
   },
   {
@@ -692,7 +692,7 @@
     "confidence": "verified",
     "notes": "Locations Miami, Atlanta, Charlotte, Dallas, Houston; posting says applications accepted until November 23 (year not printed, presumed 2026); EY limits applicants to two applications per six months",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-11",
+    "last_seen": "2026-11-13",
     "status": "open"
   },
   {
@@ -738,7 +738,7 @@
     "confidence": "verified",
     "notes": "Offices Chicago, Miami, New York; not open to you this year (current Tax LLM students only), but if you enroll in the UM Tax LLM in 2027-28 the equivalent posting should appear around Oct 2027; Baker McKenzie Miami tax associate postings are otherwise 3+ years",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-12",
+    "last_seen": "2026-11-13",
     "status": "open"
   },
   {
@@ -1290,7 +1290,7 @@
     "confidence": "verified",
     "notes": "Miami and Plantation are both listed. You apply on USAJOBS with a two-page resume, transcript, 5 to 10 page writing sample and class rank or GPA proof. Tax LL.M. students use the separate GS-12 announcement CCCM-26-13078114-HON.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-12",
+    "last_seen": "2026-11-13",
     "status": "open"
   },
   {
@@ -1612,7 +1612,7 @@
     "confidence": "search_result",
     "notes": "Seen only in a search result snippet. Look up Quevedo Law's own site for the posting.",
     "first_seen": "2026-11-12",
-    "last_seen": "2026-11-12",
+    "last_seen": "2026-11-13",
     "status": "open"
   },
   {
@@ -1682,6 +1682,98 @@
     "notes": "In-house role at Ryder, 33178 area. Only the Indeed card was visible.",
     "first_seen": "2026-11-12",
     "last_seen": "2026-11-12",
+    "status": "open"
+  },
+  {
+    "id": "cueto-law-group-p-l-associate-attorney-recent-law-school-graduate-miami",
+    "employer": "Cueto Law Group, P.L.",
+    "title": "Associate Attorney (recent law school graduate)",
+    "city": "Miami",
+    "county": "Miami-Dade",
+    "remote": false,
+    "employer_type": "law_firm",
+    "practice_area": "General litigation",
+    "fit_rank": 2,
+    "level_note": "The Indeed card says the firm wants a recent law school graduate and that some courtroom experience is ideal.",
+    "start_timing": null,
+    "deadline": null,
+    "posted": null,
+    "salary": null,
+    "url": "https://www.indeed.com/q-entry-level-attorney-l-miami,-fl-jobs.html",
+    "source": "web_search of Indeed entry level attorney Miami results",
+    "confidence": "search_result",
+    "notes": "Only the Indeed search snippet was visible. Open the card and check bar admission before you send a resume.",
+    "first_seen": "2026-11-13",
+    "last_seen": "2026-11-13",
+    "status": "open"
+  },
+  {
+    "id": "beck-legal-advisors-junior-associate-attorney-fort-lauderdale",
+    "employer": "Beck Legal Advisors",
+    "title": "Junior Associate Attorney",
+    "city": "Fort Lauderdale",
+    "county": "Broward",
+    "remote": false,
+    "employer_type": "law_firm",
+    "practice_area": "Corporate and real estate",
+    "fit_rank": 2,
+    "level_note": "Title says Junior. The experience requirement was not visible.",
+    "start_timing": null,
+    "deadline": null,
+    "posted": null,
+    "salary": null,
+    "url": "https://www.ziprecruiter.com/Jobs/Real-Estate-Attorney/-in-Miami-Beach,FL",
+    "source": "web_search of ZipRecruiter real estate attorney results",
+    "confidence": "search_result",
+    "notes": "The ZipRecruiter snippet says the firm is hiring for its Fort Lauderdale office and works in corporate and real estate law. Check the experience requirement on the full posting.",
+    "first_seen": "2026-11-13",
+    "last_seen": "2026-11-13",
+    "status": "open"
+  },
+  {
+    "id": "one-park-financial-jr-b2b-associate-attorney-miami",
+    "employer": "One Park Financial",
+    "title": "Jr. B2B Associate Attorney",
+    "city": "Miami",
+    "county": "Miami-Dade",
+    "remote": false,
+    "employer_type": "in_house",
+    "practice_area": "Business to business transactions",
+    "fit_rank": 2,
+    "level_note": "Snippet says recent graduates are encouraged to apply and Florida Bar licensure is required.",
+    "start_timing": null,
+    "deadline": null,
+    "posted": null,
+    "salary": null,
+    "url": "https://www.indeed.com/q-Recent-Law-Graduate-l-Miami,-FL-jobs.html",
+    "source": "web_search of Indeed recent law graduate Miami results",
+    "confidence": "search_result",
+    "notes": "Only the Indeed snippet was visible. You would need to be admitted first.",
+    "first_seen": "2026-11-13",
+    "last_seen": "2026-11-13",
+    "status": "open"
+  },
+  {
+    "id": "florida-third-district-court-of-appeal-s-district-court-staff-attorney-position-22006294-miami",
+    "employer": "Florida Third District Court of Appeal (State Courts System)",
+    "title": "District Court Staff Attorney (Position 22006294)",
+    "city": "Miami",
+    "county": "Miami-Dade",
+    "remote": false,
+    "employer_type": "clerkship",
+    "practice_area": "Appellate court staff attorney",
+    "fit_rank": 2,
+    "level_note": "A Glassdoor listing for the Third DCA Appellate Staff Attorney calls it an entry level position for graduating 3Ls and recent graduates. Another snippet lists State Courts System requisition 879640 for this position number.",
+    "start_timing": null,
+    "deadline": null,
+    "posted": null,
+    "salary": null,
+    "url": "https://www.inhouseblog.com/miami-legal-jobs/",
+    "source": "web_search for DISTRICT COURT STAFF ATTORNEY 22006294",
+    "confidence": "search_result",
+    "notes": "I could not open the People First posting, so the dates are unknown. The Third DCA listing said open until filled. Check the position on jobs.myflorida.com before you apply.",
+    "first_seen": "2026-11-13",
+    "last_seen": "2026-11-13",
     "status": "open"
   }
 ]
