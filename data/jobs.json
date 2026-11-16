@@ -42,7 +42,7 @@
     "confidence": "verified",
     "notes": "Exact fit for your timeline (May 2027 JD, July 2027 bar, Sept 2027 start); apply with resume, cover letter specifying the 3L Staff Attorney position, and writing sample to Vivian Chavez, vchavez@legalservicesmiami.org. Tax is one of the listed practice areas.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-13",
+    "last_seen": "2026-11-16",
     "status": "open"
   },
   {
@@ -65,7 +65,7 @@
     "confidence": "verified",
     "notes": "Only Florida AG posting found that expressly accepts 3Ls; Fort Lauderdale is a listed duty location; apply via People First (complete candidate profile, no 'see resume').",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-12",
+    "last_seen": "2026-11-16",
     "status": "open"
   },
   {
@@ -114,7 +114,9 @@
     "notes": "Apply online with cover letter and resume; writing sample, transcript and references may be requested later.",
     "first_seen": "2026-11-08",
     "last_seen": "2026-11-12",
-    "status": "open"
+    "status": "expired",
+    "closed_on": "2026-11-16",
+    "closed_reason": "application deadline passed"
   },
   {
     "id": "florida-department-of-children-and-famil-senior-attorney-position-60071390-fort-lauderdale",
@@ -137,7 +139,9 @@
     "notes": "Companion Miami Senior Attorney posting (60057855, closes 2026-11-15, $73,688.42) has the same 2-years-admitted minimum.",
     "first_seen": "2026-11-08",
     "last_seen": "2026-11-12",
-    "status": "open"
+    "status": "expired",
+    "closed_on": "2026-11-16",
+    "closed_reason": "application deadline passed"
   },
   {
     "id": "miami-dade-state-attorney-s-office-11th-assistant-state-attorney-legal-affairs-appellate-and-pos-miami",
@@ -507,7 +511,9 @@
     "notes": "Apply to careers@aijustice.org, subject 'STAFF ATTORNEY'; recorded mainly as evidence that AI Justice hires attorneys with any-state bar and no experience minimum.",
     "first_seen": "2026-11-08",
     "last_seen": "2026-11-13",
-    "status": "open"
+    "status": "expired",
+    "closed_on": "2026-11-16",
+    "closed_reason": "application deadline passed"
   },
   {
     "id": "legal-aid-service-of-broward-county-inc-consumer-staff-attorney-plantation",
@@ -692,7 +698,7 @@
     "confidence": "verified",
     "notes": "Locations Miami, Atlanta, Charlotte, Dallas, Houston; posting says applications accepted until November 23 (year not printed, presumed 2026); EY limits applicants to two applications per six months",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-13",
+    "last_seen": "2026-11-16",
     "status": "open"
   },
   {
@@ -715,7 +721,7 @@
     "confidence": "verified",
     "notes": "Locations Miami and Charlotte; EY early-careers Miami/Tax list pages render empty to scrapers, open in a browser to confirm status",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-11",
+    "last_seen": "2026-11-16",
     "status": "open"
   },
   {
@@ -738,7 +744,7 @@
     "confidence": "verified",
     "notes": "Offices Chicago, Miami, New York; not open to you this year (current Tax LLM students only), but if you enroll in the UM Tax LLM in 2027-28 the equivalent posting should appear around Oct 2027; Baker McKenzie Miami tax associate postings are otherwise 3+ years",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-13",
+    "last_seen": "2026-11-16",
     "status": "open"
   },
   {
@@ -1014,7 +1020,7 @@
     "confidence": "verified",
     "notes": "Hybrid; Hinshaw runs 'Post-Law School Graduate or Junior Associate' postings for grads awaiting bar results in CA offices (LA, SF); none in Florida as of 2026-11-08",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-16",
     "status": "open"
   },
   {
@@ -1290,7 +1296,7 @@
     "confidence": "verified",
     "notes": "Miami and Plantation are both listed. You apply on USAJOBS with a two-page resume, transcript, 5 to 10 page writing sample and class rank or GPA proof. Tax LL.M. students use the separate GS-12 announcement CCCM-26-13078114-HON.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-13",
+    "last_seen": "2026-11-16",
     "status": "open"
   },
   {
@@ -1405,7 +1411,7 @@
     "confidence": "verified",
     "notes": "Work includes tax memos and gift, estate and GST tax returns. Florida Bar admission or prompt licensing is expected, so this fits a post-bar start. Send resume, transcript and writing sample.",
     "first_seen": "2026-11-11",
-    "last_seen": "2026-11-11",
+    "last_seen": "2026-11-16",
     "status": "open"
   },
   {
@@ -1774,6 +1780,29 @@
     "notes": "I could not open the People First posting, so the dates are unknown. The Third DCA listing said open until filled. Check the position on jobs.myflorida.com before you apply.",
     "first_seen": "2026-11-13",
     "last_seen": "2026-11-13",
+    "status": "open"
+  },
+  {
+    "id": "sociable-society-talent-recruiter-for-a-labor-and-employment-attorney-miami",
+    "employer": "Sociable Society Talent (recruiter for a management-side labor and employment firm)",
+    "title": "Labor and Employment Attorney",
+    "city": "Miami",
+    "county": "Miami-Dade",
+    "remote": false,
+    "employer_type": "law_firm",
+    "practice_area": "Labor and employment (management side)",
+    "fit_rank": 2,
+    "level_note": "Lists 2-12+ years of L&E experience but says exceptional entry-level attorneys with strong academics, law review, clerkship or employment law internship experience are encouraged to apply. Needs an active license in at least one U.S. jurisdiction.",
+    "start_timing": null,
+    "deadline": null,
+    "posted": null,
+    "salary": "$180K-$300K/yr listed; the description also cites $250,000-$380,000 and a $30,000 sign-on bonus",
+    "url": "https://www.ziprecruiter.com/c/Sociable-Society-Talent/Job/Labor-And-Employment-Attorney-Miami,-FL/-in-Miami,FL?jid=036c7d8bcd11d6b6",
+    "source": "ZipRecruiter Entry Level Lawyer Miami listing",
+    "confidence": "verified",
+    "notes": "The firm is not named and the posting is a reach for a new graduate. You would need an active license first, so this fits only after the Florida Bar result. Apply through the ZipRecruiter listing.",
+    "first_seen": "2026-11-16",
+    "last_seen": "2026-11-16",
     "status": "open"
   }
 ]

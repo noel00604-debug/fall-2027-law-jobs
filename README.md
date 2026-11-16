@@ -4,17 +4,12 @@ Dashboard: https://noel00604-debug.github.io/fall-2027-law-jobs/
 
 Agent link index (every source and open posting URL): https://noel00604-debug.github.io/fall-2027-law-jobs/links.html
 
-Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 13, 2026, 6:51 AM ET.
+Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 16, 2026, 6:49 AM ET.
 
-Open postings: 74 (tax 9, everything else 65). Programs tracked: 39. Runs logged: 6.
+Open postings: 72 (tax 9, everything else 63). Programs tracked: 39. Runs logged: 7.
 
 ## Deadlines in the next 30 days
 
-- Nov 13, 2026: [National Labor Relations Board: Honors Law Clerk program (Miami Regional Office among 26 locations)](https://www.usajobs.gov/job/891157400)
-- Nov 15, 2026: [Americans for Immigrant Justice (AI Justice): Staff Attorney (anticipated 2-year contract term) (Miami (hybrid; must be based in Florida))](https://www.idealist.org/en/nonprofit-job/9f38ed261d1f440e974406ea7ae8c042-staff-attorney-americans-for-immigrant-justice-miami)
-- Nov 15, 2026: [Florida Department of Children and Families, Children's Legal Services (Miami-Dade and Broward offices): Children's Legal Services entry-level attorney hiring](https://jobs.myflorida.com/search/?q=%22children%27s+legal+services%22+OR+%22entry+level+attorney%22&locationsearch=)
-- Nov 15, 2026: [Florida Department of Children and Families, Children's Legal Services: Attorney (Position 60057845) (Miami)](https://jobs.myflorida.com/job/MIAMI-ATTORNEY-60057845-FL-33128/1063759800/)
-- Nov 15, 2026: [Florida Department of Children and Families, Children's Legal Services: Senior Attorney (Position 60071390) (Fort Lauderdale)](https://jobs.myflorida.com/job/FORT-LAUDERDALE-SENIOR-ATTORNEY-60071390-FL-33301/1399846100/)
 - Nov 16, 2026: [Legal Services of Greater Miami, Inc.: 3L Staff Attorney hiring program](https://www.legalservicesmiami.org/careers)
 - Nov 16, 2026: [Legal Services of Greater Miami, Inc.: Staff Attorney (for current 3L law students only) (Miami)](https://www.legalservicesmiami.org/careers)
 - Nov 19, 2026: [Florida Office of the Attorney General (Civil Litigation, Criminal Appeals, Consumer Protection and other bureaus in Fort Lauderdale and Miami): Attorney-Assistant AAG entry-level hiring (no formal honors program)](https://jobs.myflorida.com/go/Office-of-the-Attorney-General/2818600/)
@@ -29,46 +24,26 @@ Open postings: 74 (tax 9, everything else 65). Programs tracked: 39. Runs logged
 
 ## New in the last 7 days
 
-- TAX [Baker McKenzie: Private Capital Tax Law Clerk](https://careers.bakermckenzie.com/en_US/opportunities/JobDetail/Private-Capital-Tax-Law-Clerk/3480), Miami
-- TAX [EY (Ernst & Young): USA - Tax - ITTS - International Corporate Tax Advisory - JD/LLM - Staff 2](https://studentjobs.ey.com/job/miami/usa-tax-itts-international-corporate-tax-advisory-jd-llm-staff-2/39053/69522633280), Miami, deadline Nov 23, 2026
-- TAX [EY (Ernst & Young): USA - Tax - Indirect Tax - SALT Transactions - JD/LLM - Analyst](https://usearlycareers.ey.com/job/miami/usa-tax-indirect-tax-salt-transactions-jd-llm-analyst/39053/100310765008), Miami
 - TAX [Greenberg Traurig, LLP: Private Wealth Services Associate (Fort Lauderdale Office)](https://www.glassdoor.com/job-listing/jv?jl=1010256962372), Fort Lauderdale
 - TAX [Greenberg Traurig, LLP: Tax Associate (Junior), International Tax Practice](https://www.gobiglaw.com/jobs/552140209-tax-associate-junior-mia-at-greenberg-traurig), Miami
-- TAX [IRS Office of Chief Counsel: Honors Program Law Clerk (J.D. Students), GS-11, announcement CCCM-26-13078185-HON](https://www.usajobs.gov/job/886745900), Miami, deadline Dec 11, 2026
-- TAX [Legal Services of Greater Miami, Inc.: Staff Attorney (for current 3L law students only)](https://www.legalservicesmiami.org/careers), Miami, deadline Nov 16, 2026
 - TAX [Nichols Cauley: Tax Attorney (Associate)](https://www.ziprecruiter.com/Jobs/Tax-Attorney/-in-Miami,FL), Coral Gables
 - TAX [PwC: Miami - Tax LLM - Associate - Summer/Fall 2027](https://www.goinhouse.com/jobs/615526184-miami-tax-llm-associate-summer-fall-2027-at-pwc), Miami
-- [Acosta & Associates, P.A.: Associate Attorney (insurance defense)](https://to.indeed.com/aam9x6kbxc6n), Coral Gables
-- [Americans for Immigrant Justice (AI Justice): Staff Attorney (anticipated 2-year contract term)](https://www.idealist.org/en/nonprofit-job/9f38ed261d1f440e974406ea7ae8c042-staff-attorney-americans-for-immigrant-justice-miami), Miami (hybrid; must be based in Florida), deadline Nov 15, 2026
 - [Beck Legal Advisors: Junior Associate Attorney](https://www.ziprecruiter.com/Jobs/Real-Estate-Attorney/-in-Miami-Beach,FL), Fort Lauderdale
-- [Blood Law, PLLC: Associate Attorney - Family Law](https://to.indeed.com/aab6pv2fh6cv), Coral Gables
-- [Broward Litigation Firm (name withheld on posting): Associate Attorney (civil / commercial litigation)](https://to.indeed.com/aayhgczqhwmg), Fort Lauderdale
-- [Broward State Attorney's Office (17th Judicial Circuit): Assistant State Attorney (New Hire)](https://browardsao.com/employment), Fort Lauderdale
 - [Brown Sims PC: Associate Attorney (insurance defense, 0 to 4 years)](https://indeed.com/jobs?from=mobRdr&l=Broward+County%2C+FL&q=Insurance+Defense+Attorney&vjk=eb0fe261a266e973), Miramar
-- [Catholic Charities Legal Services, Archdiocese of Miami, Inc.: Attorney, Immigration, Family and Probate, and Public Benefits](https://www.cclsmiami.org/employment.aspx), Miami (1469 NW 13 Terrace) or Hollywood (6565 Taft St, Suite 401)
-- [Catholic Charities Legal Services, Archdiocese of Miami, Inc.: Immigration Attorney for Vulnerable Populations](https://www.cclsmiami.org/pdf/HR_202601_StaffAttorneyMiamiBroward.pdf), Miami or Hollywood
-- [Coast to Coast Legal Aid of South Florida: Attorney, Public Benefits](https://recruiting.paylocity.com/Recruiting/Jobs/All/280f65cf-fada-46d3-a776-bea7d735765f), Plantation (hybrid: 2 days in office)
-- [Coast to Coast Legal Aid of South Florida: Attorney, Family Law & Victims of Crime](https://recruiting.paylocity.com/Recruiting/Jobs/All/280f65cf-fada-46d3-a776-bea7d735765f), Plantation (hybrid)
-- [Cole, Scott & Kissane, P.A.: General Liability Attorney](https://recruiting.ultipro.com/COL1035CSKK/JobBoard/dcad0375-6d68-4c23-80e1-6fc0eb806d1f/OpportunityDetail?opportunityId=d2cbd95e-b61b-4cb7-b351-f734054072c9), Miami
-- [Cole, Scott & Kissane, P.A.: First Party Property Attorney](https://recruiting.ultipro.com/COL1035CSKK/JobBoard/dcad0375-6d68-4c23-80e1-6fc0eb806d1f/OpportunityDetail?opportunityId=b33bc417-1aeb-4782-990c-bab61c875027), Miami
-- [Cole, Scott & Kissane, P.A.: General Liability Attorney](https://recruiting.ultipro.com/COL1035CSKK/JobBoard/dcad0375-6d68-4c23-80e1-6fc0eb806d1f/OpportunityDetail?opportunityId=d2b56829-90e4-4115-b22d-27199d0efcfc), Plantation
 - [Cueto Law Group, P.L.: Associate Attorney (recent law school graduate)](https://www.indeed.com/q-entry-level-attorney-l-miami,-fl-jobs.html), Miami
 - [DeAgostino Legal Group (recruiter for an insurance defense firm): Law Clerk / 1st Year Associate (Miami)](https://www.deagostinolegal.com/open-positions), Miami
 - [Direct Counsel (recruiting for an unnamed AmLaw 100 firm): First Year Associate (Corporate) - Miami](https://www.ziprecruiter.com/c/Direct-Counsel/Job/First-Year-Associate-(Corporate)-Miami/-in-Miami,FL?jid=a06bf9c90c34fead), Miami
-- [Disability Rights Florida: Staff Attorney, Client Assistance Program / Community and Healthcare Services (two positions)](https://disabilityrightsflorida.org/about/position/staff_attorney_cap_chs), Fort Lauderdale (or Tampa, Gainesville, Tallahassee, or fully remote for Florida residents)
-- [Eleventh Judicial Circuit of Florida: Trial Court Staff Attorney (Legal Clerk), Office of the General Counsel (State Funded)](https://www.governmentjobs.com/careers/jud11flcourts/jobs/5223873/trial-court-staff-attorney-legal-clerk-office-of-the-general-counsel-state-f), Miami
 - [Exact Billing Solutions (EBS): Associate Attorney (Entry-level Insurance)](https://www.ziprecruiter.com/Jobs/Salaried-Entry-Level-Transactional-Attorney/-in-Miami,FL), Lauderdale Lakes
-- [Florida Department of Children and Families, Children's Legal Services: Attorney (Position 60057845)](https://jobs.myflorida.com/job/MIAMI-ATTORNEY-60057845-FL-33128/1063759800/), Miami, deadline Nov 15, 2026
-- [Florida Department of Children and Families, Children's Legal Services: Senior Attorney (Position 60071390)](https://jobs.myflorida.com/job/FORT-LAUDERDALE-SENIOR-ATTORNEY-60071390-FL-33301/1399846100/), Fort Lauderdale, deadline Nov 15, 2026
-- [Florida Justice Institute: Staff Attorney, Individual Cases](https://fji.law/work-with-us/), Miami
-- [Florida Office of the Attorney General, Civil Litigation Unit: Attorney-Assistant, Assistant & Senior Assistant Attorney General (Attorney-Assistant AAG is the entry level)](https://jobs.myflorida.com/job/WEST-PALM-BEACH-Attorney-Assistant,-Assistant-&-Senior-Assistant-Attorney-General-FL-33401/1442879100/), Fort Lauderdale (ZIPs 33301, 33315); also West Palm Beach and Tallahassee locations, deadline Nov 19, 2026
 - [Florida Third District Court of Appeal (State Courts System): District Court Staff Attorney (Position 22006294)](https://www.inhouseblog.com/miami-legal-jobs/), Miami
-- [Frenkel Lambert Weisman & Gordon, LLP: Associate Attorney (Bankruptcy / creditors' rights)](https://to.indeed.com/aav7ycy9ptdx), Fort Lauderdale
 - [Gaude Business & Infrastructure Solutions: Corporate Attorney](https://www.indeed.com/q-gaude-business-&-infrastructure-solutions-l-miami,-fl-jobs.html), Miami
 - [George A David: Law Clerk](https://www.indeed.com/q-george-a-david-l-coral-gables,-fl-jobs.html), Coral Gables
-- [Hinshaw & Culbertson LLP: Insurance Coverage Attorney](https://hinshawlaw.applicantstack.com/x/detail/a2j6h4h8q7lg), Coral Gables
-- [Hinshaw & Culbertson LLP: Insurance Coverage Attorney](https://hinshawlaw.applicantstack.com/x/detail/a2j6h4h8re9s), Fort Lauderdale
-- [International Law Partners LLP: 1st Yr Litigation Associate (Newly Barred)](https://to.indeed.com/aancdj7qb84m), Hollywood
+- [Kubicki Draper: Entry-Level Pre-Suit / Litigation Associate Attorney](https://www.ziprecruiter.com/c/Kubicki-Draper/Job/Entry-Level-Pre-Suit-Litigation-Associate-Attorney/-in-Fort-Lauderdale,FL?jid=3e47dd5ac1727e71), Fort Lauderdale
+- [Massey, Coican & King, PLLC: Workers' Compensation Defense Attorney (recently graduated and barred)](https://www.indeed.com/q-entry-level-legal-l-miami,-fl-jobs.html), Plantation
+- [Now Hiring You, LLC (law firm client): Estate Planning & Real Estate Associate Attorney (Entry-Level)](https://www.ziprecruiter.com/c/Now-Hiring-You,-LLC/Job/Estate-Planning-&-Real-Estate-Associate-Attorney-(Entry-Level),-Coral-Gables-FL/-in-Coral-Gables,FL?jid=964f2c45ae12a604), Coral Gables
+- [One Park Financial: Jr. B2B Associate Attorney](https://www.indeed.com/q-Recent-Law-Graduate-l-Miami,-FL-jobs.html), Miami
+- [Quevedo Law: Associate Attorney](https://www.indeed.com/q-junior-associate-attorney-l-miami,-fl-jobs.html), Miami
+- [Ryder System: Junior Litigation Attorney](https://www.indeed.com/q-ryder-system-l-miami,-fl-jobs.html), Miami
+- [Sociable Society Talent (recruiter for a management-side labor and employment firm): Labor and Employment Attorney](https://www.ziprecruiter.com/c/Sociable-Society-Talent/Job/Labor-And-Employment-Attorney-Miami,-FL/-in-Miami,FL?jid=036c7d8bcd11d6b6), Miami
 
 ## How it works
 

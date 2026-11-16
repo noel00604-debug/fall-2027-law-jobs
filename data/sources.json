@@ -32,8 +32,8 @@
     "what_to_search": "Titles 'Attorney-Assistant', 'Assistant Attorney General-DLA' with Fort Lauderdale (33301/33304/33315) or Miami locations; open each posting's location list because the index shows only the first city",
     "check_frequency": "weekly",
     "notes": null,
-    "last_checked": "2026-11-08",
-    "last_result": "Opened AG civil litigation posting, still open to 2026-11-19, Fort Lauderdale listed."
+    "last_checked": "2026-11-16",
+    "last_result": "Fetched: AAG civil litigation posting open to 2026-11-19"
   },
   {
     "id": "miami-dade-state-attorney-s-office-attorney-openings",
@@ -296,8 +296,8 @@
     "what_to_search": "'Honors Attorney Program (2027)', 'Law Clerk (Tax) - Honors', 'General Attorney (Tax) - Honors' with Miami or Plantation locations",
     "check_frequency": "every run",
     "notes": null,
-    "last_checked": "2026-11-13",
-    "last_result": "2026-11-13: search plus fetch. Honors Law Clerk (886745900) still open, deadline 12/11/2026, Miami and Plantation listed. No new IRS postings."
+    "last_checked": "2026-11-16",
+    "last_result": "Search and fetch: JD Honors law clerk (Miami, Plantation) open to 2026-12-11"
   },
   {
     "id": "irs-office-of-chief-counsel-honors-program-page",
@@ -308,8 +308,8 @@
     "what_to_search": "Changes to the 'Candidates Start in Summer or Fall of 2027' language, eligibility dates, and the USAJOBS link for open announcements",
     "check_frequency": "weekly",
     "notes": null,
-    "last_checked": "2026-11-08",
-    "last_result": "seed research"
+    "last_checked": "2026-11-16",
+    "last_result": "Fetched: JD and LL.M. tracks, start summer or fall 2027, no change"
   },
   {
     "id": "doj-attorney-general-s-honors-program",
@@ -356,8 +356,8 @@
     "what_to_search": "'Law Clerk', 'Term LC', 'Pro Se Law Clerk' announcements with Miami or Fort Lauderdale duty stations and 2027 start dates; also https://www.flsd.uscourts.gov/clerkships-and-internships",
     "check_frequency": "weekly",
     "notes": null,
-    "last_checked": "2026-11-10",
-    "last_result": "JDS-26 and JDS-21 listed; JDS-27 PDF live; JDS-28 is West Palm Beach (out of zone)"
+    "last_checked": "2026-11-16",
+    "last_result": "Search: JDS-26, 27 listed open until filled; JDS-28 and 25 are West Palm Beach"
   },
   {
     "id": "s-d-fla-bankruptcy-court-current-openings",
@@ -464,8 +464,8 @@
     "what_to_search": "3L Staff Attorney program (Nov 16, 2026 deadline) and staff attorney openings",
     "check_frequency": "weekly",
     "notes": null,
-    "last_checked": "2026-11-10",
-    "last_result": "3L staff attorney still open, apply by Nov 16"
+    "last_checked": "2026-11-16",
+    "last_result": "Fetched: 3L staff attorney ad still up, apply by Nov 16"
   },
   {
     "id": "legal-aid-service-of-broward-county-careers",
@@ -752,8 +752,8 @@
     "what_to_search": "'Tax Consultant LLM', 'Tax Consultant Juris Doctor', 'Tax Intern JD'; look for Summer 2028 / Winter 2029 start postings and confirm Miami is in the office list and note the 'Recruiting for this role ends on' date",
     "check_frequency": "every run",
     "notes": null,
-    "last_checked": "2026-11-13",
-    "last_result": "2026-11-13: site search returned only payroll and non-JD roles. Nothing new."
+    "last_checked": "2026-11-16",
+    "last_result": "Search only: no Miami JD tax posting surfaced"
   },
   {
     "id": "pwc-us-job-search",
@@ -764,8 +764,8 @@
     "what_to_search": "'Tax JD Associate Summer/Fall 2027' and 2028 postings; check whether a Miami or Florida city variant appears; site blocks scripts, use a browser",
     "check_frequency": "every run",
     "notes": null,
-    "last_checked": "2026-11-13",
-    "last_result": "2026-11-13: site search showed experienced Miami tax roles only and the Tax LLM goinhouse listing already on file. Nothing new."
+    "last_checked": "2026-11-16",
+    "last_result": "Search only: Miami Tax LLM Summer/Fall 2027 on aggregator, PwC page blocked"
   },
   {
     "id": "ey-us-early-careers",
@@ -776,8 +776,8 @@
     "what_to_search": "'JD/LLM' keyword; Miami location page https://usearlycareers.ey.com/location/miami-jobs/39053/6252001-4155751-4164138/4/1; also https://studentjobs.ey.com; pages render only in a browser",
     "check_frequency": "every run",
     "notes": null,
-    "last_checked": "2026-11-13",
-    "last_result": "2026-11-13: ITTS JD/LLM Staff 2 Miami still open to Nov 23 (fetched). Found EY Indirect Tax VAT Miami Analyst page in search but fetch was blocked, JD/LLM not confirmed, not added."
+    "last_checked": "2026-11-16",
+    "last_result": "Search and fetch: ITTS JD/LLM (to Nov 23) and SALT JD/LLM Miami live; VAT Miami analyst not opened"
   },
   {
     "id": "kpmg-us-careers-early-career",
@@ -788,8 +788,8 @@
     "what_to_search": "'JD/LLM', 'Tax Associate' with Miami or Fort Lauderdale location filter; start seasons Summer/Fall 2027, Winter 2028, Summer/Fall 2028",
     "check_frequency": "every run",
     "notes": null,
-    "last_checked": "2026-11-13",
-    "last_result": "2026-11-13: site search showed Summer/Fall 2027 JD/LLM SALT M&A multi-location, Miami not confirmed. Nothing added."
+    "last_checked": "2026-11-16",
+    "last_result": "Search only: SALT M&A JD/LLM Summer/Fall 2027 shows multiple locations, Miami not confirmed"
   },
   {
     "id": "rsm-us-careers-workday",
@@ -800,8 +800,8 @@
     "what_to_search": "'Federal Tax Associate Fall 2027', 'International Tax Associate', 'State and Local Tax Associate' with Fort Lauderdale or Miami; API: POST https://rsm.wd1.myworkdayjobs.com/wday/cxs/rsm/RSMCareers/jobs",
     "check_frequency": "every run",
     "notes": null,
-    "last_checked": "2026-11-13",
-    "last_result": "2026-11-13: search showed Fort Lauderdale/Miami tax manager roles only, no associate or JD roles. Nothing new."
+    "last_checked": "2026-11-16",
+    "last_result": "Search only: Fort Lauderdale and Miami roles are manager level"
   },
   {
     "id": "andersen-careers",
@@ -872,8 +872,8 @@
     "what_to_search": "'Miami', 'Fort Lauderdale', 'Tax', 'Resident Attorney', 'Junior'; JSON API: POST https://gtlaw.wd1.myworkdayjobs.com/wday/cxs/gtlaw/GTLAW/jobs with {\"searchText\":\"Miami\"}; recruiting contacts at https://www.gtlaw.com/en/general/careers/law-students/us-law-students/recruiting-contacts",
     "check_frequency": "every run",
     "notes": null,
-    "last_checked": "2026-11-13",
-    "last_result": "2026-11-13: site search returned no results. GT junior tax and PWS Fort Lauderdale postings already on file."
+    "last_checked": "2026-11-16",
+    "last_result": "Search returned nothing; GT PWS Fort Lauderdale (0-4 years) still live on Glassdoor"
   },
   {
     "id": "holland-and-knight-experienced-attorney-job-board-lawcruit",
@@ -896,8 +896,8 @@
     "what_to_search": "Filter Location = Miami or Fort Lauderdale; look for 'Tax Controversy Associate', 'Tax Associate' and any posting under 2 years (current Miami/FTL roles are Corporate Capital Markets, M&A/PE and Labor & Employment at 2+ years); hub https://www.akerman.com/en/people/careers/associate-careers.html",
     "check_frequency": "every run",
     "notes": null,
-    "last_checked": "2026-11-12",
-    "last_result": "Checked 2026-11-12: portal fetch refused, not verified."
+    "last_checked": "2026-11-16",
+    "last_result": "Fetch refused by service"
   },
   {
     "id": "bilzin-sumberg-current-opportunities",
@@ -908,8 +908,8 @@
     "what_to_search": "Any 'Junior' associate or 'Tax, Trusts and Estates Associate' posting (July 2025 posting required LLM plus 3+ years); law students page https://www.bilzin.com/careers/career-audience/law-students-and-graduates",
     "check_frequency": "every run",
     "notes": null,
-    "last_checked": "2026-11-12",
-    "last_result": "Checked 2026-11-12: no law student or graduate openings; experienced list has no tax role."
+    "last_checked": "2026-11-16",
+    "last_result": "Fetched: no JD or tax roles; Junior Land Use Associate lists 2+ years, no city, not added"
   },
   {
     "id": "shutts-and-bowen-attorney-portal",
@@ -968,8 +968,8 @@
     "what_to_search": "'Miami', 'Tax', 'Law Clerk'; the Private Capital Tax Law Clerk for Tax LLM students posts around October",
     "check_frequency": "every run",
     "notes": null,
-    "last_checked": "2026-11-13",
-    "last_result": "2026-11-13: Private Capital Tax Law Clerk (Miami) still live, posted 22-Oct-2026, LLM students only, part-time."
+    "last_checked": "2026-11-16",
+    "last_result": "Fetched: Private Capital Tax Law Clerk (posted 2026-10-22) still live"
   },
   {
     "id": "hunton-andrews-kurth-careers",
@@ -1064,8 +1064,8 @@
     "what_to_search": "Miami/Coral Gables and Ft Lauderdale attorney roles; watch for a Florida 'Post-Law School Graduate or Junior Associate' posting like the LA/SF ones",
     "check_frequency": "weekly",
     "notes": null,
-    "last_checked": "2026-11-08",
-    "last_result": "seed research"
+    "last_checked": "2026-11-16",
+    "last_result": "Fetched Coral Gables coverage posting, still live"
   },
   {
     "id": "wicker-smith-careers",
@@ -1160,8 +1160,8 @@
     "what_to_search": "'Attorney - State and Local Tax Law' postings (Oct 2026 posting wanted 3-5 years, Tax LLM a plus, Spanish a plus, $100k-$130k); ask about junior or LLM-year openings",
     "check_frequency": "every run",
     "notes": null,
-    "last_checked": "2026-11-12",
-    "last_result": "Checked 2026-11-12: careers page fetch failed, no posting seen in search."
+    "last_checked": "2026-11-16",
+    "last_result": "Fetch blocked; search shows no junior posting"
   },
   {
     "id": "miami-international-tax-and-estate-boutiques-no-job-boards-d",
@@ -1220,8 +1220,8 @@
     "what_to_search": "TIP 2027/2028 dates and the past-employers PDF for Florida tax employers to approach directly",
     "check_frequency": "weekly",
     "notes": null,
-    "last_checked": "2026-11-08",
-    "last_result": "seed research"
+    "last_checked": "2026-11-16",
+    "last_result": "Fetched: TIP 2027 is Feb 19, 2027, virtual, no change"
   },
   {
     "id": "university-of-miami-tax-llm-career-page",
