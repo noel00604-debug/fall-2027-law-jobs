@@ -4,14 +4,12 @@ Dashboard: https://noel00604-debug.github.io/fall-2027-law-jobs/
 
 Agent link index (every source and open posting URL): https://noel00604-debug.github.io/fall-2027-law-jobs/links.html
 
-Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 16, 2026, 6:49 AM ET.
+Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 17, 2026, 6:47 AM ET.
 
-Open postings: 72 (tax 9, everything else 63). Programs tracked: 39. Runs logged: 7.
+Open postings: 70 (tax 9, everything else 61). Programs tracked: 39. Runs logged: 8.
 
 ## Deadlines in the next 30 days
 
-- Nov 16, 2026: [Legal Services of Greater Miami, Inc.: 3L Staff Attorney hiring program](https://www.legalservicesmiami.org/careers)
-- Nov 16, 2026: [Legal Services of Greater Miami, Inc.: Staff Attorney (for current 3L law students only) (Miami)](https://www.legalservicesmiami.org/careers)
 - Nov 19, 2026: [Florida Office of the Attorney General (Civil Litigation, Criminal Appeals, Consumer Protection and other bureaus in Fort Lauderdale and Miami): Attorney-Assistant AAG entry-level hiring (no formal honors program)](https://jobs.myflorida.com/go/Office-of-the-Attorney-General/2818600/)
 - Nov 19, 2026: [Florida Office of the Attorney General, Civil Litigation Unit: Attorney-Assistant, Assistant & Senior Assistant Attorney General (Attorney-Assistant AAG is the entry level) (Fort Lauderdale (ZIPs 33301, 33315); also West Palm Beach and Tallahassee locations)](https://jobs.myflorida.com/job/WEST-PALM-BEACH-Attorney-Assistant,-Assistant-&-Senior-Assistant-Attorney-General-FL-33401/1442879100/)
 - Nov 23, 2026: [EY (Ernst & Young): USA - Tax - ITTS - International Corporate Tax Advisory - JD/LLM - Staff 2 (Miami)](https://studentjobs.ey.com/job/miami/usa-tax-itts-international-corporate-tax-advisory-jd-llm-staff-2/39053/69522633280)
@@ -21,11 +19,14 @@ Open postings: 72 (tax 9, everything else 63). Programs tracked: 39. Runs logged
 - Nov 30, 2026: [Statewide Guardian ad Litem Office: Attorney and Senior Attorney hiring (11th and 17th Circuit offices)](https://guardianadlitem.org/about/career-opportunities/)
 - Dec 11, 2026: [IRS Office of Chief Counsel: Honors Program Law Clerk (J.D. Students), GS-11, announcement CCCM-26-13078185-HON (Miami)](https://www.usajobs.gov/job/886745900)
 - Dec 11, 2026: [IRS Office of Chief Counsel: Honors Program for entry-level attorneys (Law Clerk GS-11 to Attorney) and Tax LL.M. track (GS-12)](https://jobs.irs.gov/resources/honors-program-entry-level-attorneys)
+- Dec 11, 2026: [IRS Office of Chief Counsel: Summer Intern (Legal Administrative Specialist), GS-9, announcement CCCM-26-13078050-SUM (Miami)](https://www.usajobs.gov/job/886742000)
+- Dec 17, 2026: [Miami-Dade State Attorney's Office (11th Judicial Circuit): Assistant State Attorney, Public Records Unit (Position 21003323) (Miami)](https://jobs.myflorida.com/job/MIAMI-STATE-ATTORNEY'S-OFFICE,-11TH-CIRCUIT-ASSISTANT-STATE-ATTORNEY-21003323-FL-33136/1400935700/)
 
 ## New in the last 7 days
 
 - TAX [Greenberg Traurig, LLP: Private Wealth Services Associate (Fort Lauderdale Office)](https://www.glassdoor.com/job-listing/jv?jl=1010256962372), Fort Lauderdale
 - TAX [Greenberg Traurig, LLP: Tax Associate (Junior), International Tax Practice](https://www.gobiglaw.com/jobs/552140209-tax-associate-junior-mia-at-greenberg-traurig), Miami
+- TAX [IRS Office of Chief Counsel: Summer Intern (Legal Administrative Specialist), GS-9, announcement CCCM-26-13078050-SUM](https://www.usajobs.gov/job/886742000), Miami, deadline Dec 11, 2026
 - TAX [Nichols Cauley: Tax Attorney (Associate)](https://www.ziprecruiter.com/Jobs/Tax-Attorney/-in-Miami,FL), Coral Gables
 - TAX [PwC: Miami - Tax LLM - Associate - Summer/Fall 2027](https://www.goinhouse.com/jobs/615526184-miami-tax-llm-associate-summer-fall-2027-at-pwc), Miami
 - [Beck Legal Advisors: Junior Associate Attorney](https://www.ziprecruiter.com/Jobs/Real-Estate-Attorney/-in-Miami-Beach,FL), Fort Lauderdale

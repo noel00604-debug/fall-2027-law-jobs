@@ -193,5 +193,23 @@
     ],
     "date": "2026-11-16",
     "logged_at": "2026-11-16T06:49:03-05:00"
+  },
+  {
+    "new_ids": [
+      "irs-office-of-chief-counsel-summer-intern-legal-administrative-specialist-gs-9-annou-miami"
+    ],
+    "closed_ids": [
+      "u-s-district-court-southern-district-of-law-clerk-to-u-s-magistrate-judge-lauren-f-louis-ann-no-miami",
+      "u-s-district-court-southern-district-of-law-clerk-announcement-2026-jds-20-fort-lauderdale"
+    ],
+    "searches": 29,
+    "fetches": 23,
+    "sources_checked": 22,
+    "notes": "Tax block and everything-else block run in full. One new tax posting (IRS summer intern, Tax LL.M. path). Two court clerk postings closed. IRS program notes updated.",
+    "errors": [
+      "EY, PwC mirror, GT mirror and Moffa careers fetches blocked; Florida Bar job board search returned nothing; Workable page for Kaufman Rossin did not render"
+    ],
+    "date": "2026-11-17",
+    "logged_at": "2026-11-17T06:47:37-05:00"
   }
 ]

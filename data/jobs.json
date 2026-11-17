@@ -43,7 +43,9 @@
     "notes": "Exact fit for your timeline (May 2027 JD, July 2027 bar, Sept 2027 start); apply with resume, cover letter specifying the 3L Staff Attorney position, and writing sample to Vivian Chavez, vchavez@legalservicesmiami.org. Tax is one of the listed practice areas.",
     "first_seen": "2026-11-08",
     "last_seen": "2026-11-16",
-    "status": "open"
+    "status": "expired",
+    "closed_on": "2026-11-17",
+    "closed_reason": "application deadline passed"
   },
   {
     "id": "florida-office-of-the-attorney-general-c-attorney-assistant-assistant-and-senior-assistant-attorn-fort-lauderdale",
@@ -209,7 +211,7 @@
     "confidence": "verified",
     "notes": "He has already applied; email channel is Recruitment@MiamiSAO.com with subject 'Entry-Level Assistant State Attorney' (cover letter, resume, unofficial transcript).",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-17",
     "status": "open"
   },
   {
@@ -255,7 +257,7 @@
     "confidence": "verified",
     "notes": "Apply through the online form (officeofthestateattorneyharoldfpryor.applytojob.com 'Future Assistant State Attorney') plus government ID, cover letter, resume, transcript, optional recommendation letters; HR saohumanresources@sao17.state.fl.us, 954-831-6965.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-17",
     "status": "open"
   },
   {
@@ -278,7 +280,7 @@
     "confidence": "verified",
     "notes": "Complete the online Employment Application for Attorney Positions, then email resume and writing sample (PDF) to jobs@pdmiami.com; no phone or email inquiries.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-17",
     "status": "open"
   },
   {
@@ -370,7 +372,7 @@
     "confidence": "verified",
     "notes": "Open until filled; email one consolidated PDF (cover letter, resume with salary history, transcript, bar proof if any, writing sample, three references) to augustin-birch_applicants@flsd.uscourts.gov with announcement number in the subject.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-11",
+    "last_seen": "2026-11-17",
     "status": "open"
   },
   {
@@ -394,7 +396,9 @@
     "notes": "No longer shown on the SDFL job-listings index as of Nov 8, 2026, so it may be filled; apply by single PDF to strauss@flsd.uscourts.gov with '2026-JDS-20' in the subject if still open.",
     "first_seen": "2026-11-08",
     "last_seen": "2026-11-10",
-    "status": "open"
+    "status": "closed",
+    "closed_on": "2026-11-17",
+    "closed_reason": "no longer on the S.D. Fla. court job listings page (checked 2026-11-17)"
   },
   {
     "id": "u-s-district-court-southern-district-of-pro-se-law-clerk-assigned-to-two-u-s-district-judges-ann-miami",
@@ -416,7 +420,7 @@
     "confidence": "verified",
     "notes": "Email single PDF (cover letter noting Miami vs. WPB preference, resume, AO78, transcripts, writing sample) to flsd_hrmail@flsd.uscourts.gov with 'Announcement Number: 2026-JDS-21'; SDFL reposts pro se law clerk roles periodically.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-10",
+    "last_seen": "2026-11-17",
     "status": "open"
   },
   {
@@ -744,7 +748,7 @@
     "confidence": "verified",
     "notes": "Offices Chicago, Miami, New York; not open to you this year (current Tax LLM students only), but if you enroll in the UM Tax LLM in 2027-28 the equivalent posting should appear around Oct 2027; Baker McKenzie Miami tax associate postings are otherwise 3+ years",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-16",
+    "last_seen": "2026-11-17",
     "status": "open"
   },
   {
@@ -767,7 +771,7 @@
     "confidence": "verified",
     "notes": "Position based in Miami, Dallas or Irvine; no home office; same role reposted 2026-08-12 as https://careers.lennar.com/job/755/in_house_legal_counsel_litigation and /job/756; one of the few true 0-year in-house postings in the zone",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-17",
     "status": "open"
   },
   {
@@ -1296,7 +1300,7 @@
     "confidence": "verified",
     "notes": "Miami and Plantation are both listed. You apply on USAJOBS with a two-page resume, transcript, 5 to 10 page writing sample and class rank or GPA proof. Tax LL.M. students use the separate GS-12 announcement CCCM-26-13078114-HON.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-16",
+    "last_seen": "2026-11-17",
     "status": "open"
   },
   {
@@ -1320,7 +1324,9 @@
     "notes": "Open until filled. Email one PDF with cover letter, resume, transcript, writing sample and two references to LouisApplications@flsd.uscourts.gov with 2026-JDS-27 in the subject line. The notice warns of 50 to 65 hour weeks.",
     "first_seen": "2026-11-08",
     "last_seen": "2026-11-11",
-    "status": "open"
+    "status": "closed",
+    "closed_on": "2026-11-17",
+    "closed_reason": "no longer on the S.D. Fla. court job listings page (checked 2026-11-17)"
   },
   {
     "id": "eleventh-judicial-circuit-of-florida-trial-court-staff-attorney-legal-clerk-office-of-the-gen-miami",
@@ -1803,6 +1809,29 @@
     "notes": "The firm is not named and the posting is a reach for a new graduate. You would need an active license first, so this fits only after the Florida Bar result. Apply through the ZipRecruiter listing.",
     "first_seen": "2026-11-16",
     "last_seen": "2026-11-16",
+    "status": "open"
+  },
+  {
+    "id": "irs-office-of-chief-counsel-summer-intern-legal-administrative-specialist-gs-9-annou-miami",
+    "employer": "IRS Office of Chief Counsel",
+    "title": "Summer Intern (Legal Administrative Specialist), GS-9, announcement CCCM-26-13078050-SUM",
+    "city": "Miami",
+    "county": "Miami-Dade",
+    "remote": false,
+    "employer_type": "federal",
+    "practice_area": "Tax (Division Counsel Litigation & Advisory; Criminal Tax in Miami)",
+    "fit_rank": 1,
+    "level_note": "For law students who finished one year of law school. The posting says spring 2027 graduates entering a Tax LL.M. program may take part in the summer after graduation. Needs top 25% rank, 3.35 GPA or LSAT 160. Temporary appointment of up to 89 days.",
+    "start_timing": "Target start June 2027; participants who graduate by fall 2028 may be considered for non-competitive placement into an entry-level law clerk or attorney role",
+    "deadline": "2026-12-11",
+    "posted": null,
+    "salary": "$61,722 - $100,315 per year (range across all locations)",
+    "url": "https://www.usajobs.gov/job/886742000",
+    "source": "USAJOBS search, then opened the announcement",
+    "confidence": "verified",
+    "notes": "Miami and Plantation are both listed. This is the summer path that fits a spring 2027 graduate starting the Tax LL.M. You apply on USAJOBS with a two-page resume, transcript, proof of enrollment and a 5 to 10 page writing sample. Apply to the Honors Program Law Clerk announcement too.",
+    "first_seen": "2026-11-17",
+    "last_seen": "2026-11-17",
     "status": "open"
   }
 ]
