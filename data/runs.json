@@ -211,5 +211,18 @@
     ],
     "date": "2026-11-17",
     "logged_at": "2026-11-17T06:47:37-05:00"
+  },
+  {
+    "new_ids": [],
+    "closed_ids": [],
+    "searches": 29,
+    "fetches": 20,
+    "sources_checked": 13,
+    "notes": "Full query bank run (13 tax, 16 other); nothing new that fits. 8 tax-first postings re-verified live; JDS-20 and JDS-27 stay closed (absent from court listings page).",
+    "errors": [
+      "Fetch refused or blocked: Louis JDS-27 PDF, Indeed viewjob, gobiglaw, goinhouse PwC, floridasalestax.com; USAJOBS and GT Workday covered by search only"
+    ],
+    "date": "2026-11-18",
+    "logged_at": "2026-11-18T06:54:17-05:00"
   }
 ]

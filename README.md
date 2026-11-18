@@ -4,9 +4,9 @@ Dashboard: https://noel00604-debug.github.io/fall-2027-law-jobs/
 
 Agent link index (every source and open posting URL): https://noel00604-debug.github.io/fall-2027-law-jobs/links.html
 
-Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 17, 2026, 6:47 AM ET.
+Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 18, 2026, 6:54 AM ET.
 
-Open postings: 70 (tax 9, everything else 61). Programs tracked: 39. Runs logged: 8.
+Open postings: 70 (tax 9, everything else 61). Programs tracked: 39. Runs logged: 9.
 
 ## Deadlines in the next 30 days
 
@@ -30,7 +30,6 @@ Open postings: 70 (tax 9, everything else 61). Programs tracked: 39. Runs logged
 - TAX [Nichols Cauley: Tax Attorney (Associate)](https://www.ziprecruiter.com/Jobs/Tax-Attorney/-in-Miami,FL), Coral Gables
 - TAX [PwC: Miami - Tax LLM - Associate - Summer/Fall 2027](https://www.goinhouse.com/jobs/615526184-miami-tax-llm-associate-summer-fall-2027-at-pwc), Miami
 - [Beck Legal Advisors: Junior Associate Attorney](https://www.ziprecruiter.com/Jobs/Real-Estate-Attorney/-in-Miami-Beach,FL), Fort Lauderdale
-- [Brown Sims PC: Associate Attorney (insurance defense, 0 to 4 years)](https://indeed.com/jobs?from=mobRdr&l=Broward+County%2C+FL&q=Insurance+Defense+Attorney&vjk=eb0fe261a266e973), Miramar
 - [Cueto Law Group, P.L.: Associate Attorney (recent law school graduate)](https://www.indeed.com/q-entry-level-attorney-l-miami,-fl-jobs.html), Miami
 - [DeAgostino Legal Group (recruiter for an insurance defense firm): Law Clerk / 1st Year Associate (Miami)](https://www.deagostinolegal.com/open-positions), Miami
 - [Direct Counsel (recruiting for an unnamed AmLaw 100 firm): First Year Associate (Corporate) - Miami](https://www.ziprecruiter.com/c/Direct-Counsel/Job/First-Year-Associate-(Corporate)-Miami/-in-Miami,FL?jid=a06bf9c90c34fead), Miami
@@ -39,7 +38,6 @@ Open postings: 70 (tax 9, everything else 61). Programs tracked: 39. Runs logged
 - [Gaude Business & Infrastructure Solutions: Corporate Attorney](https://www.indeed.com/q-gaude-business-&-infrastructure-solutions-l-miami,-fl-jobs.html), Miami
 - [George A David: Law Clerk](https://www.indeed.com/q-george-a-david-l-coral-gables,-fl-jobs.html), Coral Gables
 - [Kubicki Draper: Entry-Level Pre-Suit / Litigation Associate Attorney](https://www.ziprecruiter.com/c/Kubicki-Draper/Job/Entry-Level-Pre-Suit-Litigation-Associate-Attorney/-in-Fort-Lauderdale,FL?jid=3e47dd5ac1727e71), Fort Lauderdale
-- [Massey, Coican & King, PLLC: Workers' Compensation Defense Attorney (recently graduated and barred)](https://www.indeed.com/q-entry-level-legal-l-miami,-fl-jobs.html), Plantation
 - [Now Hiring You, LLC (law firm client): Estate Planning & Real Estate Associate Attorney (Entry-Level)](https://www.ziprecruiter.com/c/Now-Hiring-You,-LLC/Job/Estate-Planning-&-Real-Estate-Associate-Attorney-(Entry-Level),-Coral-Gables-FL/-in-Coral-Gables,FL?jid=964f2c45ae12a604), Coral Gables
 - [One Park Financial: Jr. B2B Associate Attorney](https://www.indeed.com/q-Recent-Law-Graduate-l-Miami,-FL-jobs.html), Miami
 - [Quevedo Law: Associate Attorney](https://www.indeed.com/q-junior-associate-attorney-l-miami,-fl-jobs.html), Miami
