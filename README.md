@@ -4,9 +4,9 @@ Dashboard: https://noel00604-debug.github.io/fall-2027-law-jobs/
 
 Agent link index (every source and open posting URL): https://noel00604-debug.github.io/fall-2027-law-jobs/links.html
 
-Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 18, 2026, 6:54 AM ET.
+Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 19, 2026, 6:51 AM ET.
 
-Open postings: 70 (tax 9, everything else 61). Programs tracked: 39. Runs logged: 9.
+Open postings: 68 (tax 9, everything else 59). Programs tracked: 39. Runs logged: 10.
 
 ## Deadlines in the next 30 days
 
@@ -24,14 +24,10 @@ Open postings: 70 (tax 9, everything else 61). Programs tracked: 39. Runs logged
 
 ## New in the last 7 days
 
-- TAX [Greenberg Traurig, LLP: Private Wealth Services Associate (Fort Lauderdale Office)](https://www.glassdoor.com/job-listing/jv?jl=1010256962372), Fort Lauderdale
-- TAX [Greenberg Traurig, LLP: Tax Associate (Junior), International Tax Practice](https://www.gobiglaw.com/jobs/552140209-tax-associate-junior-mia-at-greenberg-traurig), Miami
 - TAX [IRS Office of Chief Counsel: Summer Intern (Legal Administrative Specialist), GS-9, announcement CCCM-26-13078050-SUM](https://www.usajobs.gov/job/886742000), Miami, deadline Dec 11, 2026
-- TAX [Nichols Cauley: Tax Attorney (Associate)](https://www.ziprecruiter.com/Jobs/Tax-Attorney/-in-Miami,FL), Coral Gables
 - TAX [PwC: Miami - Tax LLM - Associate - Summer/Fall 2027](https://www.goinhouse.com/jobs/615526184-miami-tax-llm-associate-summer-fall-2027-at-pwc), Miami
 - [Beck Legal Advisors: Junior Associate Attorney](https://www.ziprecruiter.com/Jobs/Real-Estate-Attorney/-in-Miami-Beach,FL), Fort Lauderdale
 - [Cueto Law Group, P.L.: Associate Attorney (recent law school graduate)](https://www.indeed.com/q-entry-level-attorney-l-miami,-fl-jobs.html), Miami
-- [DeAgostino Legal Group (recruiter for an insurance defense firm): Law Clerk / 1st Year Associate (Miami)](https://www.deagostinolegal.com/open-positions), Miami
 - [Direct Counsel (recruiting for an unnamed AmLaw 100 firm): First Year Associate (Corporate) - Miami](https://www.ziprecruiter.com/c/Direct-Counsel/Job/First-Year-Associate-(Corporate)-Miami/-in-Miami,FL?jid=a06bf9c90c34fead), Miami
 - [Exact Billing Solutions (EBS): Associate Attorney (Entry-level Insurance)](https://www.ziprecruiter.com/Jobs/Salaried-Entry-Level-Transactional-Attorney/-in-Miami,FL), Lauderdale Lakes
 - [Florida Third District Court of Appeal (State Courts System): District Court Staff Attorney (Position 22006294)](https://www.inhouseblog.com/miami-legal-jobs/), Miami

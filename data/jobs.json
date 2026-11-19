@@ -372,7 +372,7 @@
     "confidence": "verified",
     "notes": "Open until filled; email one consolidated PDF (cover letter, resume with salary history, transcript, bar proof if any, writing sample, three references) to augustin-birch_applicants@flsd.uscourts.gov with announcement number in the subject.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-18",
+    "last_seen": "2026-11-19",
     "status": "open"
   },
   {
@@ -420,7 +420,7 @@
     "confidence": "verified",
     "notes": "Email single PDF (cover letter noting Miami vs. WPB preference, resume, AO78, transcripts, writing sample) to flsd_hrmail@flsd.uscourts.gov with 'Announcement Number: 2026-JDS-21'; SDFL reposts pro se law clerk roles periodically.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-18",
+    "last_seen": "2026-11-19",
     "status": "open"
   },
   {
@@ -539,7 +539,7 @@
     "confidence": "verified",
     "notes": "Email cover letter, resume and references to hr@legalaid.org.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-19",
     "status": "open"
   },
   {
@@ -680,7 +680,9 @@
     "notes": "Applications to careers@fji.law (Erica Downs); no phone calls.",
     "first_seen": "2026-11-08",
     "last_seen": "2026-11-08",
-    "status": "open"
+    "status": "closed",
+    "closed_on": "2026-11-19",
+    "closed_reason": "FJI careers page says it is not currently hiring (checked 2026-11-19)"
   },
   {
     "id": "ey-ernst-and-young-usa-tax-itts-international-corporate-tax-advisory-jd-llm-miami",
@@ -1071,7 +1073,9 @@
     "notes": "Department led from Tampa; Miami listed among locations (also Jacksonville, Orlando, Tampa, West Palm Beach, LA, NY); confirm Miami seating before applying",
     "first_seen": "2026-11-08",
     "last_seen": "2026-11-08",
-    "status": "open"
+    "status": "closed",
+    "closed_on": "2026-11-19",
+    "closed_reason": "posting is for the Tampa office, in-office in Tampa required (Miami only appears in the location list)"
   },
   {
     "id": "morgan-and-morgan-p-a-litigation-attorney-personal-injury-motor-vehicle-miami",
@@ -1116,7 +1120,7 @@
     "confidence": "search_result",
     "notes": "Not shown on Shutts' own attorney portal as of 2026-11-08 (portal location filter lists no Miami/Fort Lauderdale attorney openings), so likely filled or paused; email AttorneyRecruiting@shutts.com to confirm",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-19",
     "status": "open"
   },
   {
@@ -1208,7 +1212,7 @@
     "confidence": "verified",
     "notes": "Email cover letter, resume and references to hr@legalaid.org.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-19",
     "status": "open"
   },
   {
@@ -1231,7 +1235,7 @@
     "confidence": "verified",
     "notes": "Email cover letter and resume to hr@legalaid.org.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-19",
     "status": "open"
   },
   {
@@ -1254,7 +1258,7 @@
     "confidence": "verified",
     "notes": "Email cover letter and resume with references to hr@legalaid.org.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-19",
     "status": "open"
   },
   {

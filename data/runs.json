@@ -224,5 +224,21 @@
     ],
     "date": "2026-11-18",
     "logged_at": "2026-11-18T06:54:17-05:00"
+  },
+  {
+    "new_ids": [],
+    "closed_ids": [
+      "morgan-and-morgan-p-a-class-action-associate-attorney-miami",
+      "florida-justice-institute-staff-attorney-individual-cases-miami"
+    ],
+    "searches": 31,
+    "fetches": 20,
+    "sources_checked": 14,
+    "notes": "Full tax and everything-else query bank run; no verified new postings. Several leads (Conrad & Scherer, Miami Beach ACA I, GT first-year corporate) could not be opened.",
+    "errors": [
+      "web_fetch blocked: indeed viewjob, gobiglaw, goinhouse, governmentjobs newprint, EY, flsd JDS-27 pdf; site:gtlaw workday and site:jobs.floridabar.org searches returned nothing"
+    ],
+    "date": "2026-11-19",
+    "logged_at": "2026-11-19T06:51:35-05:00"
   }
 ]
