@@ -1329,7 +1329,7 @@
     "confidence": "verified",
     "notes": "Open until filled. Email one PDF with cover letter, resume, transcript, writing sample and two references to LouisApplications@flsd.uscourts.gov with 2026-JDS-27 in the subject line. The notice warns of 50 to 65 hour weeks.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-11",
+    "last_seen": "2026-11-20",
     "status": "closed",
     "closed_on": "2026-11-17",
     "closed_reason": "no longer on the S.D. Fla. court job listings page (checked 2026-11-17)"
@@ -1861,6 +1861,8 @@
     "notes": "The court listing shows it as accepting applications, open until filled, Miami. Open the PDF for the application email and requirements.",
     "first_seen": "2026-11-20",
     "last_seen": "2026-11-20",
-    "status": "open"
+    "status": "closed",
+    "closed_on": "2026-11-20",
+    "closed_reason": "duplicate of existing Louis JDS-27 record"
   }
 ]

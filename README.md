@@ -6,7 +6,7 @@ Agent link index (every source and open posting URL): https://noel00604-debug.gi
 
 Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 20, 2026, 6:52 AM ET.
 
-Open postings: 68 (tax 9, everything else 59). Programs tracked: 39. Runs logged: 12.
+Open postings: 67 (tax 9, everything else 58). Programs tracked: 39. Runs logged: 12.
 
 ## Deadlines in the next 30 days
 
@@ -28,7 +28,6 @@ Open postings: 68 (tax 9, everything else 59). Programs tracked: 39. Runs logged
 - [Florida Third District Court of Appeal (State Courts System): District Court Staff Attorney (Position 22006294)](https://www.inhouseblog.com/miami-legal-jobs/), Miami
 - [One Park Financial: Jr. B2B Associate Attorney](https://www.indeed.com/q-Recent-Law-Graduate-l-Miami,-FL-jobs.html), Miami
 - [Sociable Society Talent (recruiter for a management-side labor and employment firm): Labor and Employment Attorney](https://www.ziprecruiter.com/c/Sociable-Society-Talent/Job/Labor-And-Employment-Attorney-Miami,-FL/-in-Miami,FL?jid=036c7d8bcd11d6b6), Miami
-- [U.S. District Court, Southern District of Florida (U.S. Magistrate Judge Lauren F. Louis): Law Clerk, Announcement 2026-JDS-27](https://www.flsd.uscourts.gov/sites/flsd/files/jobs/2026-JDS-27%20Law%20Clerk%20%20to%20Magistrate%20Judge%20Louis.pdf), Miami
 
 ## How it works
 
