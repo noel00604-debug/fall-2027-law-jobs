@@ -240,5 +240,22 @@
     ],
     "date": "2026-11-19",
     "logged_at": "2026-11-19T06:51:35-05:00"
+  },
+  {
+    "new_ids": [
+      "u-s-district-court-southern-district-of-law-clerk-announcement-2026-jds-27-miami"
+    ],
+    "closed_ids": [],
+    "searches": 29,
+    "fetches": 26,
+    "sources_checked": 19,
+    "notes": "Tax block and everything-else block run in full; one new court clerkship, no new tax postings; 7 postings re-verified live; 1 AG posting expired.",
+    "errors": [
+      "EY VAT analyst, PwC goinhouse, GT gobiglaw, Nichols Cauley, Conrad and Scherer, Akerman, BPB, Moffa, Broward County pages not fetchable",
+      "site:gtlaw Workday and site:jobs.floridabar.org searches returned nothing",
+      "validate warns that two Coast to Coast legal aid records share one URL"
+    ],
+    "date": "2026-11-20",
+    "logged_at": "2026-11-20T06:52:34-05:00"
   }
 ]
