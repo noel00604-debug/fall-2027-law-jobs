@@ -257,5 +257,20 @@
     ],
     "date": "2026-11-20",
     "logged_at": "2026-11-20T06:52:34-05:00"
+  },
+  {
+    "new_ids": [],
+    "closed_ids": [
+      "pwc-miami-tax-llm-associate-summer-fall-2027-miami"
+    ],
+    "searches": 30,
+    "fetches": 21,
+    "sources_checked": 10,
+    "notes": "Full tax and everything-else query banks run; no new verifiable in-zone entry-level postings; 9 postings re-seen, PwC Miami Tax LLM closed (end date Oct 16, 2026).",
+    "errors": [
+      "GT Workday, gobiglaw, Indeed, ZipRecruiter, Miami Beach NEOGOV and Miami SAO pages blocked fetch; Florida Bar site: query returned nothing"
+    ],
+    "date": "2026-11-23",
+    "logged_at": "2026-11-23T06:54:27-05:00"
   }
 ]

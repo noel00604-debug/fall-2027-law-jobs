@@ -4,9 +4,9 @@ Dashboard: https://noel00604-debug.github.io/fall-2027-law-jobs/
 
 Agent link index (every source and open posting URL): https://noel00604-debug.github.io/fall-2027-law-jobs/links.html
 
-Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 20, 2026, 6:52 AM ET.
+Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 23, 2026, 6:54 AM ET.
 
-Open postings: 67 (tax 9, everything else 58). Programs tracked: 39. Runs logged: 12.
+Open postings: 66 (tax 8, everything else 58). Programs tracked: 39. Runs logged: 12.
 
 ## Deadlines in the next 30 days
 
@@ -23,10 +23,6 @@ Open postings: 67 (tax 9, everything else 58). Programs tracked: 39. Runs logged
 ## New in the last 7 days
 
 - TAX [IRS Office of Chief Counsel: Summer Intern (Legal Administrative Specialist), GS-9, announcement CCCM-26-13078050-SUM](https://www.usajobs.gov/job/886742000), Miami, deadline Dec 11, 2026
-- [Beck Legal Advisors: Junior Associate Attorney](https://www.ziprecruiter.com/Jobs/Real-Estate-Attorney/-in-Miami-Beach,FL), Fort Lauderdale
-- [Cueto Law Group, P.L.: Associate Attorney (recent law school graduate)](https://www.indeed.com/q-entry-level-attorney-l-miami,-fl-jobs.html), Miami
-- [Florida Third District Court of Appeal (State Courts System): District Court Staff Attorney (Position 22006294)](https://www.inhouseblog.com/miami-legal-jobs/), Miami
-- [One Park Financial: Jr. B2B Associate Attorney](https://www.indeed.com/q-Recent-Law-Graduate-l-Miami,-FL-jobs.html), Miami
 - [Sociable Society Talent (recruiter for a management-side labor and employment firm): Labor and Employment Attorney](https://www.ziprecruiter.com/c/Sociable-Society-Talent/Job/Labor-And-Employment-Attorney-Miami,-FL/-in-Miami,FL?jid=036c7d8bcd11d6b6), Miami
 
 ## How it works
