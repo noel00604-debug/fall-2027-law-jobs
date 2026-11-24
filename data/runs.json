@@ -272,5 +272,22 @@
     ],
     "date": "2026-11-23",
     "logged_at": "2026-11-23T06:54:27-05:00"
+  },
+  {
+    "new_ids": [
+      "boyd-richards-parker-and-colonnelli-p-l-associate-attorney-community-association-and-epl-miami-f-miami"
+    ],
+    "closed_ids": [
+      "ey-ernst-and-young-usa-tax-itts-international-corporate-tax-advisory-jd-llm-miami"
+    ],
+    "searches": 29,
+    "fetches": 15,
+    "sources_checked": 19,
+    "notes": "Full query bank run. No new tax postings in zone; one private firm posting added from search result. 8 postings re-verified.",
+    "errors": [
+      "gobiglaw, goinhouse and one Indeed viewjob page not fetchable (technical, left open)"
+    ],
+    "date": "2026-11-24",
+    "logged_at": "2026-11-24T06:50:42-05:00"
   }
 ]

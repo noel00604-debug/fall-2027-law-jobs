@@ -4,14 +4,12 @@ Dashboard: https://noel00604-debug.github.io/fall-2027-law-jobs/
 
 Agent link index (every source and open posting URL): https://noel00604-debug.github.io/fall-2027-law-jobs/links.html
 
-Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 23, 2026, 6:54 AM ET.
+Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 24, 2026, 6:50 AM ET.
 
-Open postings: 66 (tax 8, everything else 58). Programs tracked: 39. Runs logged: 12.
+Open postings: 66 (tax 7, everything else 59). Programs tracked: 39. Runs logged: 13.
 
 ## Deadlines in the next 30 days
 
-- Nov 23, 2026: [EY (Ernst & Young): USA - Tax - ITTS - International Corporate Tax Advisory - JD/LLM - Staff 2 (Miami)](https://studentjobs.ey.com/job/miami/usa-tax-itts-international-corporate-tax-advisory-jd-llm-staff-2/39053/69522633280)
-- Nov 23, 2026: [EY Tax (Big 4): EY JD/LLM Staff and Analyst tax hiring](https://usearlycareers.ey.com/location/miami-jobs/39053/6252001-4155751-4164138/4/1)
 - Nov 30, 2026: [Statewide Guardian ad Litem Office, 11th Circuit: Senior Attorney (Position 21020011) (Miami)](https://jobs.myflorida.com/job/MIAMI-GUARDIAN-AD-LITEM-OFFICE,-11TH-CIRCUIT-SENIOR-ATTORNEY-21020011-FL-33128/1439341300/)
 - Nov 30, 2026: [Statewide Guardian ad Litem Office, 17th Circuit: Senior Attorney (Position 21013989) (Fort Lauderdale)](https://jobs.myflorida.com/job/FORT-LAUDERDALE-GUARDIAN-AD-LITEM-OFFICE%2C-17TH-CIRCUIT-SENIOR-ATTORNEY-21013989-FL-33301/1443080900/)
 - Nov 30, 2026: [Statewide Guardian ad Litem Office: Attorney and Senior Attorney hiring (11th and 17th Circuit offices)](https://guardianadlitem.org/about/career-opportunities/)
@@ -23,7 +21,7 @@ Open postings: 66 (tax 8, everything else 58). Programs tracked: 39. Runs logged
 ## New in the last 7 days
 
 - TAX [IRS Office of Chief Counsel: Summer Intern (Legal Administrative Specialist), GS-9, announcement CCCM-26-13078050-SUM](https://www.usajobs.gov/job/886742000), Miami, deadline Dec 11, 2026
-- [Sociable Society Talent (recruiter for a management-side labor and employment firm): Labor and Employment Attorney](https://www.ziprecruiter.com/c/Sociable-Society-Talent/Job/Labor-And-Employment-Attorney-Miami,-FL/-in-Miami,FL?jid=036c7d8bcd11d6b6), Miami
+- [Boyd Richards Parker & Colonnelli, P.L.: Associate Attorney, Community Association & EPL (Miami); firm also lists Civil Litigation (Fort Lauderdale)](https://www.indeed.com/q-first-year-associate-attorney-l-miami,-fl-jobs.html), Miami
 
 ## How it works
 

@@ -19,7 +19,7 @@
     "confidence": "verified",
     "notes": "Best federal entry point in zone; state division preference and office (Miami or Fort Lauderdale) in cover letter; requires cover letter, writing sample, transcript. Contact Melissa.Innocent@usdoj.gov, 305-961-9026.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-13",
+    "last_seen": "2026-11-24",
     "status": "open"
   },
   {
@@ -541,7 +541,7 @@
     "confidence": "verified",
     "notes": "Email cover letter, resume and references to hr@legalaid.org.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-23",
+    "last_seen": "2026-11-24",
     "status": "open"
   },
   {
@@ -587,7 +587,7 @@
     "confidence": "verified",
     "notes": "Remote option (Florida residents only) tagged REMOTE; apply with DRF application form, cover letter, resume, three references and writing sample to job831@disabilityrightsflorida.org.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-24",
     "status": "open"
   },
   {
@@ -707,7 +707,9 @@
     "notes": "Locations Miami, Atlanta, Charlotte, Dallas, Houston; posting says applications accepted until November 23 (year not printed, presumed 2026); EY limits applicants to two applications per six months",
     "first_seen": "2026-11-08",
     "last_seen": "2026-11-23",
-    "status": "open"
+    "status": "expired",
+    "closed_on": "2026-11-24",
+    "closed_reason": "application deadline passed"
   },
   {
     "id": "ey-ernst-and-young-usa-tax-indirect-tax-salt-transactions-jd-llm-analyst-miami",
@@ -729,7 +731,7 @@
     "confidence": "verified",
     "notes": "Locations Miami and Charlotte; EY early-careers Miami/Tax list pages render empty to scrapers, open in a browser to confirm status",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-23",
+    "last_seen": "2026-11-24",
     "status": "open"
   },
   {
@@ -1214,7 +1216,7 @@
     "confidence": "verified",
     "notes": "Email cover letter, resume and references to hr@legalaid.org.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-23",
+    "last_seen": "2026-11-24",
     "status": "open"
   },
   {
@@ -1237,7 +1239,7 @@
     "confidence": "verified",
     "notes": "Email cover letter and resume to hr@legalaid.org.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-23",
+    "last_seen": "2026-11-24",
     "status": "open"
   },
   {
@@ -1260,7 +1262,7 @@
     "confidence": "verified",
     "notes": "Email cover letter and resume with references to hr@legalaid.org.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-23",
+    "last_seen": "2026-11-24",
     "status": "open"
   },
   {
@@ -1423,7 +1425,7 @@
     "confidence": "verified",
     "notes": "Work includes tax memos and gift, estate and GST tax returns. Florida Bar admission or prompt licensing is expected, so this fits a post-bar start. Send resume, transcript and writing sample.",
     "first_seen": "2026-11-11",
-    "last_seen": "2026-11-20",
+    "last_seen": "2026-11-24",
     "status": "open"
   },
   {
@@ -1866,5 +1868,28 @@
     "status": "closed",
     "closed_on": "2026-11-20",
     "closed_reason": "duplicate of existing Louis JDS-27 record"
+  },
+  {
+    "id": "boyd-richards-parker-and-colonnelli-p-l-associate-attorney-community-association-and-epl-miami-f-miami",
+    "employer": "Boyd Richards Parker & Colonnelli, P.L.",
+    "title": "Associate Attorney, Community Association & EPL (Miami); firm also lists Civil Litigation (Fort Lauderdale)",
+    "city": "Miami",
+    "county": "Miami-Dade",
+    "remote": false,
+    "employer_type": "law_firm",
+    "practice_area": "Community association, employment practices liability and civil litigation",
+    "fit_rank": 2,
+    "level_note": "Listing says two or more years preferred, exceptional candidates at all experience levels encouraged to apply; Florida Bar status not confirmed from the snippet",
+    "start_timing": null,
+    "deadline": null,
+    "posted": null,
+    "salary": "$110,000 - $210,000 (Indeed listing)",
+    "url": "https://www.indeed.com/q-first-year-associate-attorney-l-miami,-fl-jobs.html",
+    "source": "Indeed search results page, first year associate attorney Miami",
+    "confidence": "search_result",
+    "notes": "You would send a resume, a writing sample and a short cover letter naming the office and practice area, to Karolina M. Aprano at Kaprano@boydlawgroup.com per the firm's note. The posting itself was not opened, only the Indeed results page.",
+    "first_seen": "2026-11-24",
+    "last_seen": "2026-11-24",
+    "status": "open"
   }
 ]
