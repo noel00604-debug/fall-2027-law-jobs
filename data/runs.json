@@ -289,5 +289,19 @@
     ],
     "date": "2026-11-24",
     "logged_at": "2026-11-24T06:50:42-05:00"
+  },
+  {
+    "new_ids": [],
+    "closed_ids": [],
+    "searches": 33,
+    "fetches": 19,
+    "sources_checked": 10,
+    "notes": "No new verifiable postings. Many job fetches blocked; 7 postings re-verified.",
+    "errors": [
+      "Indeed, Glassdoor, hireheroes, gobiglaw, Deloitte and some governmentjobs fetches were refused",
+      "Repo was in detached HEAD state"
+    ],
+    "date": "2026-11-25",
+    "logged_at": "2026-11-25T06:50:55-05:00"
   }
 ]

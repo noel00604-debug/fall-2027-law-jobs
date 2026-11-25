@@ -4,9 +4,9 @@ Dashboard: https://noel00604-debug.github.io/fall-2027-law-jobs/
 
 Agent link index (every source and open posting URL): https://noel00604-debug.github.io/fall-2027-law-jobs/links.html
 
-Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 24, 2026, 6:50 AM ET.
+Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 25, 2026, 6:50 AM ET.
 
-Open postings: 66 (tax 7, everything else 59). Programs tracked: 39. Runs logged: 13.
+Open postings: 66 (tax 7, everything else 59). Programs tracked: 39. Runs logged: 14.
 
 ## Deadlines in the next 30 days
 
@@ -20,7 +20,6 @@ Open postings: 66 (tax 7, everything else 59). Programs tracked: 39. Runs logged
 
 ## New in the last 7 days
 
-- TAX [IRS Office of Chief Counsel: Summer Intern (Legal Administrative Specialist), GS-9, announcement CCCM-26-13078050-SUM](https://www.usajobs.gov/job/886742000), Miami, deadline Dec 11, 2026
 - [Boyd Richards Parker & Colonnelli, P.L.: Associate Attorney, Community Association & EPL (Miami); firm also lists Civil Litigation (Fort Lauderdale)](https://www.indeed.com/q-first-year-associate-attorney-l-miami,-fl-jobs.html), Miami
 
 ## How it works
