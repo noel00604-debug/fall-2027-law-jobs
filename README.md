@@ -4,9 +4,9 @@ Dashboard: https://noel00604-debug.github.io/fall-2027-law-jobs/
 
 Agent link index (every source and open posting URL): https://noel00604-debug.github.io/fall-2027-law-jobs/links.html
 
-Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 25, 2026, 6:50 AM ET.
+Entry-level and bar-pending attorney roles in Miami-Dade and Broward (Fort Lauderdale and south) for a 2027 start. Tax roles first, then everything else as one group: law firms, in-house, accounting firms, government, courts and public interest, with none of them ranked above the others. An agent refreshes this every weekday morning; this file was generated Nov 26, 2026, 6:52 AM ET.
 
-Open postings: 66 (tax 7, everything else 59). Programs tracked: 39. Runs logged: 14.
+Open postings: 67 (tax 7, everything else 60). Programs tracked: 39. Runs logged: 15.
 
 ## Deadlines in the next 30 days
 
@@ -21,6 +21,7 @@ Open postings: 66 (tax 7, everything else 59). Programs tracked: 39. Runs logged
 ## New in the last 7 days
 
 - [Boyd Richards Parker & Colonnelli, P.L.: Associate Attorney, Community Association & EPL (Miami); firm also lists Civil Litigation (Fort Lauderdale)](https://www.indeed.com/q-first-year-associate-attorney-l-miami,-fl-jobs.html), Miami
+- [U.S. District Court, Southern District of Florida (Magistrate Judge Eduardo I. Sanchez): Term Law Clerk (Announcement 2027-JDS-01)](https://www.flsd.uscourts.gov/sites/flsd/files/jobs/2027-JDS-01%20Term%20LC%20to%20Magistrate%20Judge%20Sanchez.pdf), Miami
 
 ## How it works
 

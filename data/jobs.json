@@ -305,7 +305,7 @@
     "confidence": "verified",
     "notes": "Email resume, letter of interest and writing sample to resume@browarddefender.org (or HR, 201 SE 6th St, Suite 3872, Fort Lauderdale 33301); PSLF-eligible employer.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-26",
     "status": "open"
   },
   {
@@ -754,7 +754,7 @@
     "confidence": "verified",
     "notes": "Offices Chicago, Miami, New York; not open to you this year (current Tax LLM students only), but if you enroll in the UM Tax LLM in 2027-28 the equivalent posting should appear around Oct 2027; Baker McKenzie Miami tax associate postings are otherwise 3+ years",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-25",
+    "last_seen": "2026-11-26",
     "status": "open"
   },
   {
@@ -1053,7 +1053,7 @@
     "confidence": "verified",
     "notes": "Hybrid; direct applicants only",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-08",
+    "last_seen": "2026-11-26",
     "status": "open"
   },
   {
@@ -1308,7 +1308,7 @@
     "confidence": "verified",
     "notes": "Miami and Plantation are both listed. You apply on USAJOBS with a two-page resume, transcript, 5 to 10 page writing sample and class rank or GPA proof. Tax LL.M. students use the separate GS-12 announcement CCCM-26-13078114-HON.",
     "first_seen": "2026-11-08",
-    "last_seen": "2026-11-25",
+    "last_seen": "2026-11-26",
     "status": "open"
   },
   {
@@ -1425,7 +1425,7 @@
     "confidence": "verified",
     "notes": "Work includes tax memos and gift, estate and GST tax returns. Florida Bar admission or prompt licensing is expected, so this fits a post-bar start. Send resume, transcript and writing sample.",
     "first_seen": "2026-11-11",
-    "last_seen": "2026-11-24",
+    "last_seen": "2026-11-26",
     "status": "open"
   },
   {
@@ -1890,6 +1890,29 @@
     "notes": "You would send a resume, a writing sample and a short cover letter naming the office and practice area, to Karolina M. Aprano at Kaprano@boydlawgroup.com per the firm's note. The posting itself was not opened, only the Indeed results page.",
     "first_seen": "2026-11-24",
     "last_seen": "2026-11-24",
+    "status": "open"
+  },
+  {
+    "id": "u-s-district-court-southern-district-of-term-law-clerk-announcement-2027-jds-01-miami",
+    "employer": "U.S. District Court, Southern District of Florida (Magistrate Judge Eduardo I. Sanchez)",
+    "title": "Term Law Clerk (Announcement 2027-JDS-01)",
+    "city": "Miami",
+    "county": "Miami-Dade",
+    "remote": false,
+    "employer_type": "clerkship",
+    "practice_area": "Federal civil and criminal chambers clerkship",
+    "fit_rank": 2,
+    "level_note": "Law school graduate or awaiting conferment of degree, with upper third class standing, law review, LLM or equivalent. JSP 11 pay is for 0 years of experience and no bar. 2 years of experience preferred.",
+    "start_timing": "Estimated start April 2027, one-year term",
+    "deadline": null,
+    "posted": "2026-11-23",
+    "salary": "JSP 11 $79,533 (0 years, no bar); JSP 12 $95,326; JSP 13 $113,356",
+    "url": "https://www.flsd.uscourts.gov/sites/flsd/files/jobs/2027-JDS-01%20Term%20LC%20to%20Magistrate%20Judge%20Sanchez.pdf",
+    "source": "flsd.uscourts.gov job listings page",
+    "confidence": "verified",
+    "notes": "Open until filled. The start is April 2027, before your May graduation, so ask the chambers whether it could move to after the bar. Email cover letter, resume, transcripts, references and a writing sample to Sanchez@flsd.uscourts.gov with subject Law Clerk Application.",
+    "first_seen": "2026-11-26",
+    "last_seen": "2026-11-26",
     "status": "open"
   }
 ]

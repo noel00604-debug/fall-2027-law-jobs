@@ -303,5 +303,21 @@
     ],
     "date": "2026-11-25",
     "logged_at": "2026-11-25T06:50:55-05:00"
+  },
+  {
+    "new_ids": [
+      "u-s-district-court-southern-district-of-term-law-clerk-announcement-2027-jds-01-miami"
+    ],
+    "closed_ids": [],
+    "searches": 29,
+    "fetches": 36,
+    "sources_checked": 17,
+    "notes": "No new entry-level tax postings found (listings need 3+ years or are already on file). One new SDFL clerkship.",
+    "errors": [
+      "Several fetches refused (goinhouse, gobiglaw, hireheroes, Indeed viewjob, Deloitte, governmentjobs newprint, floridasalestax)",
+      "Morgan and Morgan Greenhouse rate limited"
+    ],
+    "date": "2026-11-26",
+    "logged_at": "2026-11-26T06:52:33-05:00"
   }
 ]
