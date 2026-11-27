@@ -319,5 +319,19 @@
     ],
     "date": "2026-11-26",
     "logged_at": "2026-11-26T06:52:33-05:00"
+  },
+  {
+    "new_ids": [],
+    "closed_ids": [],
+    "searches": 33,
+    "fetches": 30,
+    "sources_checked": 12,
+    "notes": "Full query bank run, nothing new. Several sites blocked fetching (GT/gobiglaw, Akerman, BPB, Moffa, Workable, LinkedIn, Indeed).",
+    "errors": [
+      "Pre-existing validator warnings: 5 duplicate-URL pairs (Broward legal aid, Coast to Coast, SDFL clerk)",
+      "Repo was on detached HEAD so git pull had no branch"
+    ],
+    "date": "2026-11-27",
+    "logged_at": "2026-11-27T06:53:12-05:00"
   }
 ]
